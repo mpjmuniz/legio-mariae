@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:keepScreenOn="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="legiomariae.org.br.legiomariae.NavigationActivity"
+    tools:showIn="@layout/content_initial_prayers"
+    android:id="@+id/fInitialPrayers">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clText">
+
+        <TextView
+            android:id="@+id/tvInvTrind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="serif"
+            android:lineSpacingExtra="2sp"
+            android:text="@string/trinity"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:padding="8sp"
+            android:typeface="serif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvEspSanto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="serif"
+            android:lineSpacingExtra="2sp"
+            android:padding="8dp"
+            android:text="@string/saint_esp_ip"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:typeface="serif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvInvTrind" />
+
+        <TextView
+            android:id="@+id/tvOracaoIni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="serif"
+            android:lineSpacingExtra="2sp"
+            android:padding="8dp"
+            android:text="@string/initial_prayers_ip"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:typeface="serif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvEspSanto" />
+
+        <TextView
+            android:id="@+id/tvQuartoRosario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="serif"
+            android:lineSpacingExtra="2sp"
+            android:padding="8dp"
+            android:text="@string/rosary_quarter_ip"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:typeface="serif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvOracaoIni" />
+
+        <TextView
+            android:id="@+id/tvOraFin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:lineSpacingExtra="2sp"
+            android:padding="8dp"
+            android:text="@string/final_prayers_ip"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:typeface="serif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvQuartoRosario" />
+
+        <TextView
+            android:id="@+id/tvInvoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/invocations_ip"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:lineSpacingExtra="2sp"
+            android:padding="8dp"
+            android:typeface="serif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvOraFin"/>
+
+        <TextView
+            android:id="@+id/tvTrindFin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trinity"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:lineSpacingExtra="2sp"
+            android:padding="8dp"
+            android:typeface="serif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvInvoc"/>
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

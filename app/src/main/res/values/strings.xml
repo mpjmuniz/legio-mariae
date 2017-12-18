@@ -1,24 +1,59 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE resources [
-    <!ENTITY pres "<font color='@android:color/holo_red_dark'>Ᵽ.</font>">
-    <!ENTITY resp "<font color='@android:color/holo_red_dark'>℟.</font>">
-    <!ENTITY cruz "<font color='@android:color/holo_red_dark'><b>♱</b></font>">
-    <!ENTITY antif "<font color='@android:color/holo_red_dark'><b>Ant.</b></font>">
-    ]>
-
+<?xml version="1.0" encoding="utf-8" ?><!DOCTYPE resources [<!ENTITY pres "<font color='@android:color/holo_red_dark'>Ᵽ.</font>"><!ENTITY resp "<font color='@android:color/holo_red_dark'>℟.</font>"><!ENTITY cruz "<font color='@android:color/holo_red_dark'><b>♱</b></font>"><!ENTITY antif "<font color='@android:color/holo_red_dark'><b>Ant.</b></font>">]><!-- TODO: deixar tudo em inglês -->
 <resources>
     <string name="app_name">Legio Mariæ</string>
+    <string name="raise_font">Aumentar Fonte</string>
+    <string name="decrease_font">Diminuir Fonte</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
     <!-- Strings usadas na Catena -->
-    <string name="tituloCt">Catena Legionis</string>
-    <string name="antifonaCt">&antif; Quem é esta que avança como a aurora, formosa como a lua, brilhante como o sol, terrível como um exército em ordem de batalha?</string>
-    <string name="magnificatCt">&pres; A minh’alma &cruz; engrandece ao Senhor\u200B\n&resp; E se alegrou o meu espírito em Deus, meu Salvador\n&pres; Pois ele viu a pequenez de sua serva,\u200B* eis que agora as gerações hão de chamar-me de bendita.\n&resp; O Poderoso fez por mim maravilhas\u200B* e Santo é o seu nome!\n&pres; Seu amor, de geração em geração, \u200Bchega a todos que o respeitam.\n&resp; Demonstrou o poder de seu braço,\u200B* dispersou os orgulhosos.\n&pres; Derrubou os poderosos de seus tronos\u200B* e os humildes exaltou.\n&resp; De bens saciou os famintos\u200B* e despediu, sem nada, os ricos.\n&pres; Acolheu Israel, seu servidor,\u200B* fiel ao seu amor\n&resp; Como havia prometido aos nossos pais,\u200B* em favor de Abraão e de seus filhos, para sempre.\n&pres; Glória ao Pai, ao Filho e ao Espírito Santo\u200B*\n&resp; Como era no princípio, agora e sempre, Amém.</string>
-    <string name="precesCt">&pres; Ó Maria concebida sem pecado,\n&resp; Rogai por nós que recorremos a Vós.\n\n&pres; Oremos: Senhor Jesus Cristo, Mediador nosso perante o Pai, que Vos dignastes escolher a Virgem Santíssima, Vossa Mãe, para Mãe e Medianeira nossa junto de Vós, concedei misericordiosamente a quem a Vós recorrer, buscando os Vossos favores, se regozije de os receber todos por Ela.\n&resp; Amém. </string>
-    <string name="antifonaCtLt">&antif; Quae est ista\u200B* quae progréditur quasi auróra consúrgens, pulchra ut luna, elécta ut sol, terríbilis ut castrórum ácies ordináta?</string>
-    <string name="magnificatCtLt">&pres; Magní <font color="@android:color/holo_red_dark"><b>♱</b></font>  ficat\u200B* ánima mea Dóminum\u200B\n&resp; Et exsultávit spíritus meus\u200B* in Deo salutári meo.\n&pres; Quia respéxit humilitátem ancíllae suae,\u200B* ecce enim ex hoc beátam me dicent omnes generátiones.\n&resp; Quia fecit mihi magna qui potens est \u200B* et sanctum nomen eius.\n&pres; Et misericórdia eius a progénie in progénies\u200B* timéntibus eum.\n&resp; Fecit poténtiam in bráchio suo,\u200B* dispérsit supérbos mente cordis sui.\n&pres; Depósuit poténtes de sede,\u200B* et exaltávit húmiles.\n&resp; Esuriéntes implévit bonis\u200B* et dívites dimísit inánes.\n&pres; Suscépit Israël púerum suum,\u200B* recordátus misericórdiae suae.\n&resp; Sicut locútus est ad patres nostros,\u200B* et sémini eius in sǽcula.\n&pres; Glória Patri et Fílio,\u200B* et Spírituí Sancto\n&resp; Sicut erat in principio, et nunc, et semper et in saecula saeculorum, Amen.</string>
-    <string name="precesCtLt">&pres; María sine labe concépta,\n&resp; Ora pro nobis, qui confugimus ad te.\n\n&resp; ad te recurréntibus .&pres; Oremus: Dómine Jesu Christe, noster apud Patrem mediátor, qui beatíssimam Virginem matrem tuam, matrem quoque nostram et apud te mediatórem constitúere dignátus est: concéde propítius; ut quisquis ad te benefícia petitúrus accésserit cuncta se per earn impetrásse lætétur. Qui vivis et regnas cum Deo Patre in unitate Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.\n&resp; Amém.</string>
-    <string name="latim">Latim</string>
-    <string name="linguaNativa">Português</string>
+    <string name="title_ct">Catena Legionis</string>
+    <string name="antiphon_ct">&antif; Quem é esta que avança como a aurora, formosa como a lua, brilhante como o sol, terrível como um exército em ordem de batalha?</string>
+    <string name="magnificat_ct">&pres; A minh’alma &cruz; engrandece ao Senhor\u200B\n&resp; E se alegrou o meu espírito em Deus, meu Salvador\n&pres;
+        Pois ele viu a pequenez de sua serva,\u200B* eis que agora as gerações hão de chamar-me de bendita.\n&resp;
+        O Poderoso fez por mim maravilhas\u200B* e Santo é o seu nome!\n&pres; Seu amor, de geração em geração, \u200Bchega a todos que o respeitam.\n&resp;
+        Demonstrou o poder de seu braço,\u200B* dispersou os orgulhosos.\n&pres; Derrubou os poderosos de seus tronos\u200B* e os humildes exaltou.\n&resp;
+        De bens saciou os famintos\u200B* e despediu, sem nada, os ricos.\n&pres; Acolheu Israel, seu servidor,\u200B* fiel ao seu amor\n&resp;
+        Como havia prometido aos nossos pais,\u200B* em favor de Abraão e de seus filhos, para sempre.\n&pres;
+        Glória ao Pai, ao Filho e ao Espírito Santo\u200B*\n&resp; Como era no princípio, agora e sempre, Amém.</string>
+    <string name="prayers_ct">&pres; Ó Maria concebida sem pecado,\n&resp; Rogai por nós que recorremos a Vós.\n\n&pres;
+        Oremos: Senhor Jesus Cristo, Mediador nosso perante o Pai, que Vos dignastes escolher a Virgem Santíssima, Vossa Mãe, para Mãe e Medianeira nossa junto de Vós, concedei misericordiosamente a quem a Vós recorrer, buscando os Vossos favores, se regozije de os receber todos por Ela.\n&resp;
+        Amém. </string>
+    <string name="antiphon_ct_lt">&antif; Quae est ista\u200B* quae progréditur quasi auróra consúrgens, pulchra ut luna, elécta ut sol, terríbilis ut castrórum ácies ordináta?</string>
+    <string name="magnificat_ct_lt">&pres; Magní <font color="@android:color/holo_red_dark"><b>♱</b></font>  ficat\u200B* ánima mea Dóminum\u200B\n&resp;
+        Et exsultávit spíritus meus\u200B* in Deo salutári meo.\n&pres; Quia respéxit humilitátem ancíllae suae,\u200B* ecce enim ex hoc beátam me dicent omnes generátiones.\n&resp;
+        Quia fecit mihi magna qui potens est \u200B* et sanctum nomen eius.\n&pres; Et misericórdia eius a progénie in progénies\u200B* timéntibus eum.\n&resp;
+        Fecit poténtiam in bráchio suo,\u200B* dispérsit supérbos mente cordis sui.\n&pres; Depósuit poténtes de sede,\u200B* et exaltávit húmiles.\n&resp;
+        Esuriéntes implévit bonis\u200B* et dívites dimísit inánes.\n&pres; Suscépit Israël púerum suum,\u200B* recordátus misericórdiae suae.\n&resp;
+        Sicut locútus est ad patres nostros,\u200B* et sémini eius in sǽcula.\n&pres; Glória Patri et Fílio,\u200B* et Spírituí Sancto\n&resp;
+        Sicut erat in principio, et nunc, et semper et in saecula saeculorum, Amen.</string>
+    <string name="prayers_ct_lt">&pres; María sine labe concépta,\n&resp; Ora pro nobis, qui confugimus ad te.\n\n&resp;
+        ad te recurréntibus .&pres; Oremus: Dómine Jesu Christe, noster apud Patrem mediátor, qui beatíssimam Virginem matrem tuam, matrem quoque nostram et apud te mediatórem constitúere dignátus est: concéde propítius; ut quisquis ad te benefícia petitúrus accésserit cuncta se per earn impetrásse lætétur. Qui vivis et regnas cum Deo Patre in unitate Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.\n&resp;
+        Amém.</string>
+    <string name="latin">Latim</string>
+    <string name="native_language">Português</string>
+    <!-- Strings usadas em ambas orações -->
+    <string name="trinity">&pres; Em nome do Pai&cruz;, do Filho e do Espírito Santo.\n&resp; Amém.</string>
     <!-- Strings usadas nas orações iniciais -->
-
+    <string name="saint_esp_ip">&pres; Vinde, Espírito Santo, enchei os corações dos Vossos fiéis e acendei neles o fogo do Vosso amor.\nEnviai o Vosso Espírito e tudo será criado.\n&resp;
+        E renovareis a face da terra.</string>
+    <string name="initial_prayers_ip">&pres; Oremos: Ó Deus, que santificais a Vossa Igreja inteira, em todos os povos e nações, derramai por toda a extensão do mundo os dons do Espírito Santo e realizai agora no coração dos fiéis as maravilhas que operastes no início da pregação do Evangelho. Por nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo. &resp;
+        Amém.</string>
+    <string name="rosary_quarter_ip">&pres; Abri meus lábios, ó Senhor.\n&resp; E a minha boca anunciará o Vosso louvor.\n&pres;
+        Vinde, ó Deus, em meu auxílio.\n&resp; Socorrei-me sem demora.\n&pres; Glória ao Pai, ao Filho e ao Espírito Santo\n&resp;
+        Como era no princípio, agora e sempre.\nAmém.\n\n(Segue-se o quarto do rosário, terminado pela Salve Rainha)\n\n&pres;
+        Rogai por nós, Santa Mãe de Deus.\n&resp; Para que sejamos dignos das promessas de Cristo.</string>
+    <string name="final_prayers_ip">&pres; Oremos: Ó Deus, cujo Filho Unigênito, por Sua vida, morte e ressurreição, nos obteve o prêmio da salvação eterna, concedei-nos, nós Vô-lo pedimos que, meditando estes mistérios da Bem-Aventurada Virgem Maria, imitemos o que contém e consigamos o que prometem. Pelo mesmo Cristo, Senhor Nosso.\n&resp;
+        Amém.</string>
+    <string name="invocations_ip">&pres; Coração Sacratíssimo de Jesus,\n&resp; Tende piedade de nós.\n&pres;
+        Coração Imaculado de Maria,\n&resp; Rogai por nós.\n&pres; São José,\n&resp; Rogai por nós.\n&pres;
+        São João Evangelista,\n&resp; Rogai por nós.\n&pres; São Luís Maria de Monfort,\n&resp;
+        Rogai por nós.\n</string>
+    <string name="title_ip">Orações Iniciais</string>
     <!-- Strings usadas nas orações finais -->
+    <string name="title_fp">Orações Finais</string>
+    <string name="sub_tuum_fp">&pres; À Vossa proteção recorremos, Santa Mãe de Deus. Não desprezei as súplicas que em nossas necessidades vos dirigimos, mas livrai-nos sempre de todos os perigos, ó Virgem gloriosa e bendita.</string>
+    <string name="invocations_fp">&pres; (Invocação própria do Præsidium)\n(Fora das reuniões do Præsidium reza-se sempre a invocação seguinte:\n&pres; Maria Imaculada, Medianeira de todas as graças\n&resp; Rogai por nós).\n\n&pres; São Miguel, São Gabriel &amp; São Rafael,\n&resp; Rogai por nós.\n&pres;Milícias todas dos céus, Legião dos Anjos de Maria\n&resp; Rogai por nós.\n&pres;São João Batista\n&resp; Rogai por nós.\n&pres;São Pedro e São Paulo\n&resp; Rogai por nós.</string>
+    <string name="final_prayers_fp">\tConcedei-nos, Senhor, a nós que militamos sob o estandarte da Virgem, aquela plenitude de fé em Vós e de confiança em Maria, que nos assegurem a conquista do mundo. Dai-nos uma fé viva, animada pela caridade, que nos leve a praticar as nossas ações, unicamente por amor de vós, e a ver-Vos e a servir-Vos sempre no nosso próximo; uma fé firme e inabalável como a rocha, que nos conserve calmos e resolutos no meio das cruzes, trabalhos e decepções da vida; uma fé corajosa que nos anime a empreender e prosseguir, sem hesitação, grandes coisas por Deus e pala salvação do próximo; uma fé que seja a Coluna de Fogo da nossa Legião, que nos guie avante unidos, para acender em todos a chama do Amor divino; iluminar os que estão nas trevas e sombras da morte; animar os indecisos; restituir a vida aso mortos no pecado; e nos dirija os passos no caminho da paz. De forma que terminada a batalha da vida, a nossa Legião possa reunir-se, sem uma só perda, no Reino de Vosso Amor e Glória.\nAmém. </string>
+    <string name="rip_fp">&pres; Que as almas dos Legionários e de todos os fiéis defuntos, pela misericórdia de Deus, descansem em paz.\n&resp; Amém.\n\n\t(Segue-se a bênção do Diretor Espiritual)</string>
+    <string name="title_rq">Quarto do Rosário</string>
 </resources>
