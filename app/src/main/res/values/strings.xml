@@ -87,7 +87,8 @@
         Amém.</string>
     <string name="title_cl">Chamada</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="welcome">Bem vindo, Legionário!</string>
+    <string name="get_started">Vamos começar?</string>
+    <string name="timer_instr">Ao passar para a direita, o tempo para a oração da Catena será iniciado.</string>
+    <string name="following">➤</string>
 </resources>
