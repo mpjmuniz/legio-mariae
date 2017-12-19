@@ -1,11 +1,12 @@
-package legiomariae.org.br.legiomariae
+package legiomariae.org.br.legiomariae.tessera
 
 
 import android.os.Bundle
-import android.support.v4.app.Fragment
+import android.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import legiomariae.org.br.legiomariae.R
 
 
 /**

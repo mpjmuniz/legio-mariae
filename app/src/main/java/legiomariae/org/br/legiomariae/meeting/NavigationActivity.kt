@@ -1,4 +1,4 @@
-package legiomariae.org.br.legiomariae
+package legiomariae.org.br.legiomariae.meeting
 
 import android.app.Fragment
 import android.os.Bundle
@@ -6,11 +6,11 @@ import android.support.design.widget.NavigationView
 import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
-import android.view.Menu
 import android.view.MenuItem
-import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_navigation.*
-import kotlinx.android.synthetic.main.content_initial_prayers.*
+import legiomariae.org.br.legiomariae.R
+import legiomariae.org.br.legiomariae.tessera.CatenaFragment
+import legiomariae.org.br.legiomariae.tessera.RosaryQuarterFragment
 
 class NavigationActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -41,36 +41,11 @@ class NavigationActivity : AppCompatActivity(), NavigationView.OnNavigationItemS
         }
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+    /*override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.navigation, menu)
         return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        when (item.itemId) {
-            R.id.increaseFont -> {
-                for(i in 0..clText.childCount){
-                    try {
-                        (clText.getChildAt(i) as TextView).textSize += 1
-                    } catch(e : Exception){}
-                }
-                return true
-            }
-            R.id.decreaseFont -> {
-                for(i in 0..clText.childCount){
-                    try {
-                        (clText.getChildAt(i) as TextView).textSize /= 1.5f
-                    } catch(e : Exception){}
-                }
-                return true
-            }
-            else -> return super.onOptionsItemSelected(item)
-        }
-    }
+    }*/
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
@@ -86,12 +61,21 @@ class NavigationActivity : AppCompatActivity(), NavigationView.OnNavigationItemS
                 }
             }
             R.id.nav_quarto -> {
-                if(currentFragment !is InitialPrayersFragment) {
+                if(currentFragment !is RosaryQuarterFragment) {
                     val transaction = fragmentManager.beginTransaction()
-                    currentFragment = InitialPrayersFragment()
+                    currentFragment = RosaryQuarterFragment()
                     transaction.replace(R.id.mainFragment, currentFragment)
                     transaction.commit()
-                    tvFragmentTitle.text = getString(R.string.title_ip)
+                    tvFragmentTitle.text = getString(R.string.title_rq)
+                }
+            }
+            R.id.nav_meeting -> {
+                if(currentFragment !is MeetingFragment){
+                    val transaction = fragmentManager.beginTransaction()
+                    currentFragment = MeetingFragment()
+                    transaction.replace(R.id.mainFragment, currentFragment)
+                    transaction.commit()
+                    tvFragmentTitle.text = getString(R.string.title_mt)
                 }
             }
         }

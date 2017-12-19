@@ -6,8 +6,7 @@
     android:keepScreenOn="true"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="legiomariae.org.br.legiomariae.NavigationActivity"
-    tools:showIn="@layout/content_initial_prayers"
+    tools:context="legiomariae.org.br.legiomariae.meeting.NavigationActivity"
     android:id="@+id/fInitialPrayers">
 
     <android.support.constraint.ConstraintLayout

@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="utf-8" ?><!DOCTYPE resources [<!ENTITY pres "<font color='@android:color/holo_red_dark'>Ᵽ.</font>"><!ENTITY resp "<font color='@android:color/holo_red_dark'>℟.</font>"><!ENTITY cruz "<font color='@android:color/holo_red_dark'><b>♱</b></font>"><!ENTITY antif "<font color='@android:color/holo_red_dark'><b>Ant.</b></font>">]><!-- TODO: deixar tudo em inglês -->
+<?xml version="1.0" encoding="utf-8" ?><!DOCTYPE resources [<!ENTITY pres "<font color='@android:color/holo_red_dark'>Ᵽ.</font>"><!ENTITY resp "<font color='@android:color/holo_red_dark'>℟.</font>"><!ENTITY cruz "<font color='@android:color/holo_red_dark'><b>♱</b></font>"><!ENTITY antif "<font color='@android:color/holo_red_dark'><b>Ant.</b></font>"><!ENTITY all "<font color='@android:color/holo_red_dark'>Ⱦ.</font>">]><!-- TODO: deixar tudo em inglês -->
 <resources>
     <string name="app_name">Legio Mariæ</string>
     <string name="raise_font">Aumentar Fonte</string>
     <string name="decrease_font">Diminuir Fonte</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <!-- Strings usadas na Catena -->
+    <string name="latin">Latim</string>
+    <string name="native_language">Português</string>
+    <string name="title_pr">O Præsidium</string>
+    <!-- Strings used in Catena -->
     <string name="title_ct">Catena Legionis</string>
     <string name="antiphon_ct">&antif; Quem é esta que avança como a aurora, formosa como a lua, brilhante como o sol, terrível como um exército em ordem de batalha?</string>
     <string name="magnificat_ct">&pres; A minh’alma &cruz; engrandece ao Senhor\u200B\n&resp; E se alegrou o meu espírito em Deus, meu Salvador\n&pres;
@@ -18,19 +21,6 @@
     <string name="prayers_ct">&pres; Ó Maria concebida sem pecado,\n&resp; Rogai por nós que recorremos a Vós.\n\n&pres;
         Oremos: Senhor Jesus Cristo, Mediador nosso perante o Pai, que Vos dignastes escolher a Virgem Santíssima, Vossa Mãe, para Mãe e Medianeira nossa junto de Vós, concedei misericordiosamente a quem a Vós recorrer, buscando os Vossos favores, se regozije de os receber todos por Ela.\n&resp;
         Amém. </string>
-    <string name="antiphon_ct_lt">&antif; Quae est ista\u200B* quae progréditur quasi auróra consúrgens, pulchra ut luna, elécta ut sol, terríbilis ut castrórum ácies ordináta?</string>
-    <string name="magnificat_ct_lt">&pres; Magní <font color="@android:color/holo_red_dark"><b>♱</b></font>  ficat\u200B* ánima mea Dóminum\u200B\n&resp;
-        Et exsultávit spíritus meus\u200B* in Deo salutári meo.\n&pres; Quia respéxit humilitátem ancíllae suae,\u200B* ecce enim ex hoc beátam me dicent omnes generátiones.\n&resp;
-        Quia fecit mihi magna qui potens est \u200B* et sanctum nomen eius.\n&pres; Et misericórdia eius a progénie in progénies\u200B* timéntibus eum.\n&resp;
-        Fecit poténtiam in bráchio suo,\u200B* dispérsit supérbos mente cordis sui.\n&pres; Depósuit poténtes de sede,\u200B* et exaltávit húmiles.\n&resp;
-        Esuriéntes implévit bonis\u200B* et dívites dimísit inánes.\n&pres; Suscépit Israël púerum suum,\u200B* recordátus misericórdiae suae.\n&resp;
-        Sicut locútus est ad patres nostros,\u200B* et sémini eius in sǽcula.\n&pres; Glória Patri et Fílio,\u200B* et Spírituí Sancto\n&resp;
-        Sicut erat in principio, et nunc, et semper et in saecula saeculorum, Amen.</string>
-    <string name="prayers_ct_lt">&pres; María sine labe concépta,\n&resp; Ora pro nobis, qui confugimus ad te.\n\n&resp;
-        ad te recurréntibus .&pres; Oremus: Dómine Jesu Christe, noster apud Patrem mediátor, qui beatíssimam Virginem matrem tuam, matrem quoque nostram et apud te mediatórem constitúere dignátus est: concéde propítius; ut quisquis ad te benefícia petitúrus accésserit cuncta se per earn impetrásse lætétur. Qui vivis et regnas cum Deo Patre in unitate Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.\n&resp;
-        Amém.</string>
-    <string name="latin">Latim</string>
-    <string name="native_language">Português</string>
     <!-- Strings usadas em ambas orações -->
     <string name="trinity">&pres; Em nome do Pai&cruz;, do Filho e do Espírito Santo.\n&resp; Amém.</string>
     <!-- Strings usadas nas orações iniciais -->
@@ -52,8 +42,52 @@
     <!-- Strings usadas nas orações finais -->
     <string name="title_fp">Orações Finais</string>
     <string name="sub_tuum_fp">&pres; À Vossa proteção recorremos, Santa Mãe de Deus. Não desprezei as súplicas que em nossas necessidades vos dirigimos, mas livrai-nos sempre de todos os perigos, ó Virgem gloriosa e bendita.</string>
-    <string name="invocations_fp">&pres; (Invocação própria do Præsidium)\n(Fora das reuniões do Præsidium reza-se sempre a invocação seguinte:\n&pres; Maria Imaculada, Medianeira de todas as graças\n&resp; Rogai por nós).\n\n&pres; São Miguel, São Gabriel &amp; São Rafael,\n&resp; Rogai por nós.\n&pres;Milícias todas dos céus, Legião dos Anjos de Maria\n&resp; Rogai por nós.\n&pres;São João Batista\n&resp; Rogai por nós.\n&pres;São Pedro e São Paulo\n&resp; Rogai por nós.</string>
-    <string name="final_prayers_fp">\tConcedei-nos, Senhor, a nós que militamos sob o estandarte da Virgem, aquela plenitude de fé em Vós e de confiança em Maria, que nos assegurem a conquista do mundo. Dai-nos uma fé viva, animada pela caridade, que nos leve a praticar as nossas ações, unicamente por amor de vós, e a ver-Vos e a servir-Vos sempre no nosso próximo; uma fé firme e inabalável como a rocha, que nos conserve calmos e resolutos no meio das cruzes, trabalhos e decepções da vida; uma fé corajosa que nos anime a empreender e prosseguir, sem hesitação, grandes coisas por Deus e pala salvação do próximo; uma fé que seja a Coluna de Fogo da nossa Legião, que nos guie avante unidos, para acender em todos a chama do Amor divino; iluminar os que estão nas trevas e sombras da morte; animar os indecisos; restituir a vida aso mortos no pecado; e nos dirija os passos no caminho da paz. De forma que terminada a batalha da vida, a nossa Legião possa reunir-se, sem uma só perda, no Reino de Vosso Amor e Glória.\nAmém. </string>
-    <string name="rip_fp">&pres; Que as almas dos Legionários e de todos os fiéis defuntos, pela misericórdia de Deus, descansem em paz.\n&resp; Amém.\n\n\t(Segue-se a bênção do Diretor Espiritual)</string>
+    <string name="invocations_external_fp">&pres; (Invocação própria do Præsidium)\n(Fora das reuniões do Præsidium reza-se sempre a invocação seguinte:\n&pres;
+        Maria Imaculada, Medianeira de todas as graças\n&resp; Rogai por nós).</string>
+    <string name="invocations_fp">&pres; São Miguel, São Gabriel &amp;\u00A0São Rafael,\n&resp;
+        Rogai por nós.\n&pres;Milícias todas dos céus,\nLegião dos Anjos de Maria\n&resp; Rogai por nós.\n&pres;São João Batista\n&resp;
+        Rogai por nós.\n&pres;São Pedro e São Paulo\n&resp; Rogai por nós.</string>
+    <string name="final_prayers_fp">&all; Concedei-nos, Senhor, a nós que militamos sob o estandarte da Virgem, aquela plenitude de fé em Vós e de confiança em Maria, que nos assegurem a conquista do mundo.\nDai-nos uma fé viva, animada pela caridade, que nos leve a praticar as nossas ações, unicamente por amor de vós, e a ver-Vos e a servir-Vos sempre no nosso próximo; uma fé firme e inabalável como a rocha, que nos conserve calmos e resolutos no meio das cruzes, trabalhos e decepções da vida; uma fé corajosa que nos anime a empreender e prosseguir, sem hesitação, grandes coisas por Deus e pela salvação do próximo; uma fé que seja a Coluna de Fogo da nossa Legião, que nos guie avante unidos, para acender em todos a chama do Amor divino; iluminar os que estão nas trevas e sombras da morte; animar os indecisos; restituir a vida aso mortos no pecado; e nos dirija os passos no caminho da paz.\nDe forma que terminada a batalha da vida, a nossa Legião possa reunir-se, sem uma só perda, no Reino de Vosso Amor e Glória.\nAmém. </string>
+    <string name="rip_fp">&pres; Que as almas dos Legionários e de todos os fiéis defuntos, pela misericórdia de Deus, descansem em paz.\n&resp;
+        Amém.\n\n\t(Segue-se a bênção do Diretor Espiritual)</string>
     <string name="title_rq">Quarto do Rosário</string>
+    <string name="title_mt">Reunião Semanal</string>
+    <string name="daily_prayers">Orações Diárias</string>
+    <string name="title_er">Leitura Espiritual</string>
+    <string name="title_mr">Leitura da Ata</string>
+    <string name="title_pi">Instrução Permanente</string>
+    <string name="title_tr">Relatório do Tesoureiro</string>
+    <string name="title_wr">Relatório dos Trabalhos</string>
+    <string name="title_al">Alocução</string>
+    <string name="title_sc">Coleta Secreta</string>
+    <string name="title_om">Outros Assuntos</string>
+    <string name="title_st">Estudo</string>
+    <string name="title_wd">Distribuição dos Trabalhos</string>
+    <string name="title_fd">Oração pela Beatificação de Frank Duff</string>
+    <!-- Strings used in Frank Duff beatification prayer -->
+    <string name="init_pray_fd">&all; Deus Pai, Vós inspirastes ao vosso servo Frank Duff, um profundo discernimento do mistério de vossa Igreja,  Corpo de Cristo, e do lugar de Maria, Mãe de Deus, neste mistério.\nEm seu imenso desejo de compartilhar este discernimento com outros e, em dependência filial de Maria, ele fundou uma Legião para ser um sinal do maternal Amor da Virgem pelo mundo e um meio de engajar todos os seus filhos no trabalho de evangelização da Igreja.\nNós vos agradecemos, Pai, pelas graças a ele concedidas e pelos benefícios advindos à Igreja, por sua corajosa e radiante fé.\nAgora, confiadamente, rogamos que, por sua intercessão, nos concedais a graça que vos suplicamos…</string>
+    <string name="fin_pray_fd">&all; Humildemente vos pedimos, também que, se de acordo com a Vossa Vontade, a santidade de sua vida possa ser reconhecida pela Igreja, o mais breve possível, para a glória de Vosso Nome.\nÉ o que vos pedimos, por Cristo, Nosso Senhor, Amém.\n\n(Com aprovação eclesiástica)</string>
+    <!-- Strings used in Permanent Instruction -->
+    <string name="start_pi">&pres; O Serviço Legionário exige de cada membro da Legião: </string>
+    <string name="first_pi"><font color='@android:color/holo_red_dark'>Primeiro:</font> A assistência pontual e regular à reunião semanal do Præsidium, onde deve apresentar em voz alta e compreensível o relatório exato do trabalho realizado.</string>
+    <string name="second_pi"><font color='@android:color/holo_red_dark'>Segundo:</font> A reza diária da Catena.</string>
+    <string name="third_pi"><font color='@android:color/holo_red_dark'>Terceiro:</font> A execução de um trabalho legionário, ativo e bem definido, em espírito de fé e união com Maria, de tal forma que, pelo legionário, seja Maria, a Mãe de Jesus, que mais uma vez contemple e sirva a pessoa Adorável de seu divino Filho, naqueles por quem o legionário trabalha e nos seus colegas de ação.</string>
+    <string name="forth_pi"><font color='@android:color/holo_red_dark'>Quarto:</font> Segredo absoluto sobre os assuntos tratados em reunião ou conhecidos na realização da atividade legionária.</string>
+    <!-- Latin versions -->
+    <string name="antiphon_ct_lt">&antif; Quae est ista\u200B* quae progréditur quasi auróra consúrgens, pulchra ut luna, elécta ut sol, terríbilis ut castrórum ácies ordináta?</string>
+    <string name="magnificat_ct_lt">&pres; Magní <font color="@android:color/holo_red_dark"><b>♱</b></font>  ficat\u200B* ánima mea Dóminum\u200B\n&resp;
+        Et exsultávit spíritus meus\u200B* in Deo salutári meo.\n&pres; Quia respéxit humilitátem ancíllae suae,\u200B* ecce enim ex hoc beátam me dicent omnes generátiones.\n&resp;
+        Quia fecit mihi magna qui potens est \u200B* et sanctum nomen eius.\n&pres; Et misericórdia eius a progénie in progénies\u200B* timéntibus eum.\n&resp;
+        Fecit poténtiam in bráchio suo,\u200B* dispérsit supérbos mente cordis sui.\n&pres; Depósuit poténtes de sede,\u200B* et exaltávit húmiles.\n&resp;
+        Esuriéntes implévit bonis\u200B* et dívites dimísit inánes.\n&pres; Suscépit Israël púerum suum,\u200B* recordátus misericórdiae suae.\n&resp;
+        Sicut locútus est ad patres nostros,\u200B* et sémini eius in sǽcula.\n&pres; Glória Patri et Fílio,\u200B* et Spírituí Sancto\n&resp;
+        Sicut erat in principio, et nunc, et semper et in saecula saeculorum, Amen.</string>
+    <string name="prayers_ct_lt">&pres; María sine labe concépta,\n&resp; Ora pro nobis, qui confugimus ad te.\n\n&resp;
+        ad te recurréntibus .&pres; Oremus: Dómine Jesu Christe, noster apud Patrem mediátor, qui beatíssimam Virginem matrem tuam, matrem quoque nostram et apud te mediatórem constitúere dignátus est: concéde propítius; ut quisquis ad te benefícia petitúrus accésserit cuncta se per earn impetrásse lætétur. Qui vivis et regnas cum Deo Patre in unitate Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.\n&resp;
+        Amém.</string>
+    <string name="title_cl">Chamada</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

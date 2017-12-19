@@ -3,7 +3,7 @@ package legiomariae.org.br.legiomariae.splash
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import legiomariae.org.br.legiomariae.NavigationActivity
+import legiomariae.org.br.legiomariae.meeting.NavigationActivity
 
 
 class SplashActivity : AppCompatActivity() {

@@ -7,7 +7,7 @@
     android:keepScreenOn="true"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="legiomariae.org.br.legiomariae.CatenaFragment"
+    tools:context="legiomariae.org.br.legiomariae.tessera.CatenaFragment"
     tools:showIn="@layout/activity_navigation"
     android:id="@+id/fCatena">
     <android.support.constraint.ConstraintLayout

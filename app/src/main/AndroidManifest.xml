@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".NavigationActivity"
+            android:name=".meeting.NavigationActivity"
             android:label=""
             android:theme="@style/MyAppTheme">
             <intent-filter>

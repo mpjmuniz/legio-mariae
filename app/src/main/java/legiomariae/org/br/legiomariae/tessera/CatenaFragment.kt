@@ -1,10 +1,11 @@
-package legiomariae.org.br.legiomariae
+package legiomariae.org.br.legiomariae.tessera
 
 import android.app.Fragment
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import legiomariae.org.br.legiomariae.R
 
 class CatenaFragment : Fragment() {
 
