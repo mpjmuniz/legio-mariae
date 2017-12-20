@@ -7,7 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import legiomariae.org.br.legiomariae.R
 
-class EspiritualReadingFragment : Fragment() {
+class SpiritualReadingFragment : Fragment() {
+    /*
+    * Layout code, no need to test
+    * */
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment

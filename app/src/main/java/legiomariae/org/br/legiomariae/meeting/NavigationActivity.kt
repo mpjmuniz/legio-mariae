@@ -1,6 +1,5 @@
 package legiomariae.org.br.legiomariae.meeting
 
-import android.app.Fragment
 import android.os.Bundle
 import android.support.design.widget.NavigationView
 import android.support.v4.view.GravityCompat
@@ -14,25 +13,29 @@ import legiomariae.org.br.legiomariae.tessera.RosaryQuarterFragment
 
 class NavigationActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
-    private lateinit var currentFragment : Fragment
+    private val tag : String = "current"
 
+    /*
+    * Only layout code, no need to test
+    * */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_navigation)
-        val transaction = fragmentManager.beginTransaction()
-        currentFragment = CatenaFragment()
-        transaction.replace(R.id.mainFragment, currentFragment)
-        transaction.commit()
+        fragmentManager.beginTransaction()
+                .replace(R.id.mainFragment, CatenaFragment(), tag)
+                .commit()
         setSupportActionBar(toolbar)
 
         val toggle = ActionBarDrawerToggle(
-                this, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
+                this, drawer_layout, toolbar, R.string.all_nav_draw_open, R.string.all_nav_draw_close)
         drawer_layout.addDrawerListener(toggle)
         toggle.syncState()
         nav_view.setNavigationItemSelectedListener(this)
     }
 
-
+    /*
+    * android studio generated code, no need to test
+    * */
     override fun onBackPressed() {
         if (drawer_layout.isDrawerOpen(GravityCompat.START)) {
             drawer_layout.closeDrawer(GravityCompat.START)
@@ -41,41 +44,35 @@ class NavigationActivity : AppCompatActivity(), NavigationView.OnNavigationItemS
         }
     }
 
-    /*override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.navigation, menu)
-        return true
-    }*/
-
+    /*
+    * Only screen redirection code, no need to test
+    * */
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        // Handle navigation view item clicks here.
+        val currentFragment = fragmentManager.findFragmentByTag(tag)
 
         when (item.itemId) {
             R.id.nav_catena -> {
                 if(currentFragment !is CatenaFragment) {
-                    val transaction = fragmentManager.beginTransaction()
-                    currentFragment = CatenaFragment()
-                    transaction.replace(R.id.mainFragment, currentFragment)
-                    transaction.commit()
-                    tvFragmentTitle.text = getString(R.string.title_ct)
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.mainFragment, CatenaFragment(), tag)
+                            .commit()
+                    tvFragmentTitle.text = getString(R.string.cat_title)
                 }
             }
             R.id.nav_quarto -> {
                 if(currentFragment !is RosaryQuarterFragment) {
-                    val transaction = fragmentManager.beginTransaction()
-                    currentFragment = RosaryQuarterFragment()
-                    transaction.replace(R.id.mainFragment, currentFragment)
-                    transaction.commit()
-                    tvFragmentTitle.text = getString(R.string.title_rq)
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.mainFragment, RosaryQuarterFragment(), tag)
+                            .commit()
+                    tvFragmentTitle.text = getString(R.string.rqt_title)
                 }
             }
             R.id.nav_meeting -> {
                 if(currentFragment !is MeetingFragment){
-                    val transaction = fragmentManager.beginTransaction()
-                    currentFragment = MeetingFragment()
-                    transaction.replace(R.id.mainFragment, currentFragment)
-                    transaction.commit()
-                    tvFragmentTitle.text = getString(R.string.title_mt)
+                    fragmentManager.beginTransaction()
+                        .replace(R.id.mainFragment, MeetingFragment(), tag)
+                        .commit()
+                    tvFragmentTitle.text = getString(R.string.wmt_title)
                 }
             }
         }

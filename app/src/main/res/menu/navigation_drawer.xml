@@ -8,19 +8,19 @@
         <menu>
             <item
                 android:id="@+id/nav_catena"
-                android:title="@string/title_ct"
+                android:title="@string/cat_title"
                 android:checkable="true"/>
             <item
                 android:id="@+id/nav_quarto"
-                android:title="@string/title_rq"
+                android:title="@string/rqt_title"
                 android:checkable="true"/>
         </menu>
     </item>
-    <item android:title="@string/title_pr" >
+    <item android:title="@string/all_title_prsdium" >
         <menu>
         <item
             android:id="@+id/nav_meeting"
-            android:title="@string/title_mt"
+            android:title="@string/wmt_title"
             android:checkable="true"/>
         </menu>
     </item>

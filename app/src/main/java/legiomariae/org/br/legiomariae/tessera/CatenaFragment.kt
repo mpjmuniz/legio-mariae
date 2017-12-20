@@ -9,6 +9,9 @@ import legiomariae.org.br.legiomariae.R
 
 class CatenaFragment : Fragment() {
 
+    /*
+    * Layout code, no need to test
+    * */
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View?
             = inflater.inflate(R.layout.content_catena, container, false)

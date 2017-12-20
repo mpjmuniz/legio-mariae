@@ -17,12 +17,16 @@ import legiomariae.org.br.legiomariae.R
 
 class RosaryQuarterFragment : Fragment() {
 
+    /*
+    * Layout code, no need to test
+    * */
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_rosary_quarter, container, false)
     }
 
+    // TODO: change min sdk to jellybean
     @RequiresApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -37,10 +41,13 @@ class RosaryQuarterFragment : Fragment() {
         })
     }
 
+    /*
+    * TODO: try to test this class
+    * */
     private class PageAdapter(fm: FragmentManager?, c : Context) : FragmentPagerAdapter(fm) {
 
         private val fragments = listOf(InitialPrayersFragment(), FinalPrayersFragment())
-        private val titles = listOf(c.getString(R.string.title_ip), c.getString(R.string.title_fp))
+        private val titles = listOf(c.getString(R.string.ipr_title), c.getString(R.string.fpr_title))
 
         override fun getCount(): Int = fragments.count()
 
