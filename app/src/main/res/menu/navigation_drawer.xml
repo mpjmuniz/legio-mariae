@@ -22,6 +22,10 @@
             android:id="@+id/nav_meeting"
             android:title="@string/wmt_title"
             android:checkable="true"/>
+        <item
+            android:id="@+id/nav_worksheet"
+            android:title="@string/wks_title"
+            android:checkable="true"/>
         </menu>
     </item>
 

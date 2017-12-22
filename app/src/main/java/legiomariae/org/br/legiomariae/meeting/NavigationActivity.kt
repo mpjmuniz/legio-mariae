@@ -10,6 +10,7 @@ import kotlinx.android.synthetic.main.activity_navigation.*
 import legiomariae.org.br.legiomariae.R
 import legiomariae.org.br.legiomariae.tessera.CatenaFragment
 import legiomariae.org.br.legiomariae.tessera.RosaryQuarterFragment
+import legiomariae.org.br.legiomariae.worksheet.WorksheetFragment
 
 class NavigationActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -73,6 +74,14 @@ class NavigationActivity : AppCompatActivity(), NavigationView.OnNavigationItemS
                         .replace(R.id.mainFragment, MeetingFragment(), tag)
                         .commit()
                     tvFragmentTitle.text = getString(R.string.wmt_title)
+                }
+            }
+            R.id.nav_worksheet -> {
+                if(currentFragment !is WorksheetFragment){
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.mainFragment, WorksheetFragment(), tag)
+                            .commit()
+                    tvFragmentTitle.text = getString(R.string.wks_title)
                 }
             }
         }

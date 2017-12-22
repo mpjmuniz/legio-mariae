@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE resources [
-    <!ENTITY pres "<font color='@android:color/holo_red_dark'>Ᵽ.</font>">
-    <!ENTITY resp "<font color='@android:color/holo_red_dark'>℟.</font>">
-    <!ENTITY cruz "<font color='@android:color/holo_red_dark'><b>♱</b></font>">
-    <!ENTITY antif "<font color='@android:color/holo_red_dark'><b>Ant.</b></font>">
-    <!ENTITY all "<font color='@android:color/holo_red_dark'>Ⱦ.</font>">
-]>
+<?xml version="1.0" encoding="utf-8" ?><!DOCTYPE resources [<!ENTITY pres "<font color='@android:color/holo_red_dark'>Ᵽ.</font>"><!ENTITY resp "<font color='@android:color/holo_red_dark'>℟.</font>"><!ENTITY cruz "<font color='@android:color/holo_red_dark'><b>♱</b></font>"><!ENTITY antif "<font color='@android:color/holo_red_dark'><b>Ant.</b></font>"><!ENTITY all "<font color='@android:color/holo_red_dark'>Ⱦ.</font>">]>
 <resources>
     <!-- Pattern: 3 chars for screen where the string is used, '_' to mean space, identifier following -->
     <string name="all_app_name" translatable="false">Legio Mariæ</string>
@@ -19,20 +12,22 @@
 
     <string name="cat_title" translatable="true">Catena Legionis</string>
     <string name="cat_antiphon" translatable="true">&antif; Quem é esta que avança como a aurora, formosa como a lua, brilhante como o sol, terrível como um exército em ordem de batalha?</string>
-    <string name="cat_magnificat" translatable="true">&pres; A minh’alma &cruz; engrandece ao Senhor\u200B\n&resp; E se alegrou o meu espírito em Deus, meu Salvador\n&pres;
-        Pois ele viu a pequenez de sua serva,\u200B* eis que agora as gerações hão de chamar-me de bendita.\n&resp;
+    <string name="cat_magnificat" translatable="true">&pres; A minh’alma &cruz; engrandece ao Senhor\u200B\n&resp;
+        E se alegrou o meu espírito em Deus, meu Salvador\n&pres; Pois ele viu a pequenez de sua serva,\u200B* eis que agora as gerações hão de chamar-me de bendita.\n&resp;
         O Poderoso fez por mim maravilhas\u200B* e Santo é o seu nome!\n&pres; Seu amor, de geração em geração, \u200Bchega a todos que o respeitam.\n&resp;
         Demonstrou o poder de seu braço,\u200B* dispersou os orgulhosos.\n&pres; Derrubou os poderosos de seus tronos\u200B* e os humildes exaltou.\n&resp;
         De bens saciou os famintos\u200B* e despediu, sem nada, os ricos.\n&pres; Acolheu Israel, seu servidor,\u200B* fiel ao seu amor\n&resp;
         Como havia prometido aos nossos pais,\u200B* em favor de Abraão e de seus filhos, para sempre.\n&pres;
         Glória ao Pai, ao Filho e ao Espírito Santo\u200B*\n&resp; Como era no princípio, agora e sempre, Amém.</string>
-    <string name="cat_prayers" translatable="true">&pres; Ó Maria concebida sem pecado,\n&resp; Rogai por nós que recorremos a Vós.\n\n&pres;
-        Oremos: Senhor Jesus Cristo, Mediador nosso perante o Pai, que Vos dignastes escolher a Virgem Santíssima, Vossa Mãe, para Mãe e Medianeira nossa junto de Vós, concedei misericordiosamente a quem a Vós recorrer, buscando os Vossos favores, se regozije de os receber todos por Ela.\n&resp;
+    <string name="cat_prayers" translatable="true">&pres; Ó Maria concebida sem pecado,\n&resp;
+        Rogai por nós que recorremos a Vós.\n\n&pres; Oremos: Senhor Jesus Cristo, Mediador nosso perante o Pai, que Vos dignastes escolher a Virgem Santíssima, Vossa Mãe, para Mãe e Medianeira nossa junto de Vós, concedei misericordiosamente a quem a Vós recorrer, buscando os Vossos favores, se regozije de os receber todos por Ela.\n&resp;
         Amém. </string>
+    <string name="cat_addendum">(a meio tempo que vai da assinatura da Ata ao fim da reunião)</string>
 
     <!-- Used in daily prayers -->
 
-    <string name="pry_trinity" translatable="true">&pres; Em nome do Pai&cruz;, do Filho e do Espírito Santo.\n&resp; Amém.</string>
+    <string name="pry_trinity" translatable="true">&pres; Em nome do Pai&cruz;, do Filho e do Espírito Santo.\n&resp;
+        Amém.</string>
     <string name="daily_prayers" translatable="true">Orações Diárias</string>
 
     <!-- Used in initial prayers -->
@@ -42,16 +37,17 @@
         E renovareis a face da terra.</string>
     <string name="ipr_initial_pray" translatable="true">&pres; Oremos: Ó Deus, que santificais a Vossa Igreja inteira, em todos os povos e nações, derramai por toda a extensão do mundo os dons do Espírito Santo e realizai agora no coração dos fiéis as maravilhas que operastes no início da pregação do Evangelho. Por nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo. &resp;
         Amém.</string>
-    <string name="ipr_rosary_quarter" translatable="true">&pres; Abri meus lábios, ó Senhor.\n&resp; E a minha boca anunciará o Vosso louvor.\n&pres;
-        Vinde, ó Deus, em meu auxílio.\n&resp; Socorrei-me sem demora.\n&pres; Glória ao Pai, ao Filho e ao Espírito Santo\n&resp;
-        Como era no princípio, agora e sempre.\nAmém.\n\n(Segue-se o quarto do rosário, terminado pela Salve Rainha)\n\n&pres;
+    <string name="ipr_rosary_quarter" translatable="true">&pres; Abri meus lábios, ó Senhor.\n&resp;
+        E a minha boca anunciará o Vosso louvor.\n&pres; Vinde, ó Deus, em meu auxílio.\n&resp;
+        Socorrei-me sem demora.\n&pres; Glória ao Pai, ao Filho e ao Espírito Santo\n&resp; Como era no princípio, agora e sempre.\nAmém.\n\n(Segue-se o quarto do rosário, terminado pela Salve Rainha)\n\n&pres;
         Rogai por nós, Santa Mãe de Deus.\n&resp; Para que sejamos dignos das promessas de Cristo.</string>
     <string name="ipr_final_pray" translatable="true">&pres; Oremos: Ó Deus, cujo Filho Unigênito, por Sua vida, morte e ressurreição, nos obteve o prêmio da salvação eterna, concedei-nos, nós Vô-lo pedimos que, meditando estes mistérios da Bem-Aventurada Virgem Maria, imitemos o que contém e consigamos o que prometem. Pelo mesmo Cristo, Senhor Nosso.\n&resp;
         Amém.</string>
-    <string name="ipr_invocations" translatable="true">&pres; Coração Sacratíssimo de Jesus,\n&resp; Tende piedade de nós.\n&pres;
-        Coração Imaculado de Maria,\n&resp; Rogai por nós.\n&pres; São José,\n&resp; Rogai por nós.\n&pres;
-        São João Evangelista,\n&resp; Rogai por nós.\n&pres; São Luís Maria de Monfort,\n&resp;
+    <string name="ipr_invocations" translatable="true">&pres; Coração Sacratíssimo de Jesus,\n&resp;
+        Tende piedade de nós.\n&pres; Coração Imaculado de Maria,\n&resp; Rogai por nós.\n&pres; São José,\n&resp;
+        Rogai por nós.\n&pres; São João Evangelista,\n&resp; Rogai por nós.\n&pres; São Luís Maria de Monfort,\n&resp;
         Rogai por nós.\n</string>
+    <string name="ipr_addendum">e Quarto do Rosário</string>
 
     <!-- Used in final prayers -->
 
@@ -65,6 +61,7 @@
     <string name="fpr_final_prayers" translatable="true">&all; Concedei-nos, Senhor, a nós que militamos sob o estandarte da Virgem, aquela plenitude de fé em Vós e de confiança em Maria, que nos assegurem a conquista do mundo.\nDai-nos uma fé viva, animada pela caridade, que nos leve a praticar as nossas ações, unicamente por amor de vós, e a ver-Vos e a servir-Vos sempre no nosso próximo; uma fé firme e inabalável como a rocha, que nos conserve calmos e resolutos no meio das cruzes, trabalhos e decepções da vida; uma fé corajosa que nos anime a empreender e prosseguir, sem hesitação, grandes coisas por Deus e pela salvação do próximo; uma fé que seja a Coluna de Fogo da nossa Legião, que nos guie avante unidos, para acender em todos a chama do Amor divino; iluminar os que estão nas trevas e sombras da morte; animar os indecisos; restituir a vida aso mortos no pecado; e nos dirija os passos no caminho da paz.\nDe forma que terminada a batalha da vida, a nossa Legião possa reunir-se, sem uma só perda, no Reino de Vosso Amor e Glória.\nAmém. </string>
     <string name="fpr_rip" translatable="true">&pres; Que as almas dos Legionários e de todos os fiéis defuntos, pela misericórdia de Deus, descansem em paz.\n&resp;
         Amém.\n\n\t(Segue-se a bênção do Diretor Espiritual)</string>
+    <string name="fpr_addendum">e bênção do Diretor Espiritual</string>
 
     <!-- Used in rosary quarter -->
 
@@ -77,6 +74,7 @@
     <!-- Used in spiritual reading -->
 
     <string name="spr_title" translatable="true">Leitura Espiritual</string>
+    <string name="spr_addendum">(5 minutos)</string>
 
     <!-- Used in the minutes reading -->
 
@@ -88,11 +86,13 @@
 
     <!-- Used in work reports -->
 
-    <string name="wrl_title" translatable="true">Relatório dos Trabalhos</string>
+    <string name="wrl_title" translatable="true">Relatório Individual</string>
+    <string name="wrl_addendum">(Apresentação dos Trabalhos)</string>
 
     <!-- Used in alocuttio -->
 
     <string name="alt_title" translatable="true">Alocução</string>
+    <string name="alt_addendum" translatable="true">(5 minutos)</string>
 
     <!-- Used in secret collection -->
 
@@ -101,14 +101,17 @@
     <!-- Used in other matters -->
 
     <string name="omt_title" translatable="true">Outros Assuntos</string>
+    <string name="omt_addendum" translatable="true">(relatório da reunião da Cúria, etc.)</string>
 
     <!-- Used in study -->
 
     <string name="std_title" translatable="true">Estudo</string>
+    <string name="std_addendum" translatable="true">(10 minutos)</string>
 
     <!-- Used in Work distribution -->
 
-    <string name="wds_title" translatable="true">Distribuição dos Trabalhos</string>
+    <string name="wds_title" translatable="true">Distribuição dos trabalhos</string>
+    <string name="wds_addendum" translatable="true">para a semana seguinte</string>
 
     <!-- Used in Frank Duff beatification prayer -->
 
@@ -119,6 +122,7 @@
     <!-- Used in Permanent Instruction -->
 
     <string name="pin_title" translatable="true">Instrução Permanente</string>
+    <string name="pin_addendum" translatable="true">(1ª reunião do mês)</string>
     <string name="pin_start" translatable="true">&pres; O Serviço Legionário exige de cada membro da Legião: </string>
     <string name="pin_first" translatable="true"><font color='@android:color/holo_red_dark'>Primeiro:</font> A assistência pontual e regular à reunião semanal do Præsidium, onde deve apresentar em voz alta e compreensível o relatório exato do trabalho realizado.</string>
     <string name="pin_second" translatable="true"><font color='@android:color/holo_red_dark'>Segundo:</font> A reza diária da Catena.</string>
@@ -127,12 +131,17 @@
 
     <!-- Used in callings -->
 
-    <string name="cal_title">Chamada</string>
+    <string name="cal_title" translatable="true">Chamada</string>
+    <string name="cal_addendum" translatable="true">(Boas-vindas, se houver visitas da Cúria ou novos membros)</string>
 
-    <!-- Used in get started fragment -->
+    <!-- Used in worksheet -->
 
-    <string name="gts_title">Vamos começar?</string>
-    <string name="gts_welcome">Bem vindo, Legionário!</string>
-    <string name="gts_timer_instr">Ao passar para a direita, o tempo para a oração da Catena será iniciado.</string>
-    <string name="gts_following">➤</string>
+    <string name="wks_title" translatable="true">Folha de Trabalho</string>
+    <string name="wks_date" translatable="true">Data: </string>
+    <string name="wks_time" translatable="true">Horário: </string>
+    <string name="wks_name" translatable="true">Præsidium</string>
+
+    <!-- Used in recruiting -->
+
+    <string name="rcr_title">Recrutamento</string>
 </resources>
