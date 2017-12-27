@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE resources [<!ENTITY pres "<font color='@android:color/holo_red_dark'>Ᵽ.</font>"><!ENTITY resp "<font color='@android:color/holo_red_dark'>℟.</font>"><!ENTITY cruz "<font color='@android:color/holo_red_dark'><b>♱</b></font>"><!ENTITY antif "<font color='@android:color/holo_red_dark'><b>Ant.</b></font>"><!ENTITY all "<font color='@android:color/holo_red_dark'>Ⱦ.</font>">]>
+<resources>
+    <string name="cat_title" translatable="false">Catena Legionis</string>
+    <string name="cat_antiphon" translatable="true">&antif; Quem é esta que avança como a aurora, formosa como a lua, brilhante como o sol, terrível como um exército em ordem de batalha?</string>
+    <string name="cat_magnificat" translatable="true">&pres; A minh’alma &cruz; engrandece ao Senhor\u200B\n&resp;
+        E se alegrou o meu espírito em Deus, meu Salvador\n&pres; Pois ele viu a pequenez de sua serva,\u200B* eis que agora as gerações hão de chamar-me de bendita.\n&resp;
+        O Poderoso fez por mim maravilhas\u200B* e Santo é o seu nome!\n&pres; Seu amor, de geração em geração, \u200Bchega a todos que o respeitam.\n&resp;
+        Demonstrou o poder de seu braço,\u200B* dispersou os orgulhosos.\n&pres; Derrubou os poderosos de seus tronos\u200B* e os humildes exaltou.\n&resp;
+        De bens saciou os famintos\u200B* e despediu, sem nada, os ricos.\n&pres; Acolheu Israel, seu servidor,\u200B* fiel ao seu amor\n&resp;
+        Como havia prometido aos nossos pais,\u200B* em favor de Abraão e de seus filhos, para sempre.\n&pres;
+        Glória ao Pai, ao Filho e ao Espírito Santo\u200B*\n&resp; Como era no princípio, agora e sempre, Amém.</string>
+    <string name="cat_prayers" translatable="true">&pres; Ó Maria concebida sem pecado,\n&resp;
+        Rogai por nós que recorremos a Vós.\n\n&pres; Oremos: Senhor Jesus Cristo, Mediador nosso perante o Pai, que Vos dignastes escolher a Virgem Santíssima, Vossa Mãe, para Mãe e Medianeira nossa junto de Vós, concedei misericordiosamente a quem a Vós recorrer, buscando os Vossos favores, se regozije de os receber todos por Ela.\n&resp;
+        Amém. </string>
+    <string name="cat_addendum">(a meio tempo que vai da assinatura da Ata ao fim da reunião)</string>
+
+    <!-- Used in daily prayers -->
+
+    <string name="pry_trinity" translatable="true">&pres; Em nome do Pai&cruz;, do Filho e do Espírito Santo.\n&resp;
+        Amém.</string>
+    <string name="nav_daily_prayers" translatable="true">Orações Diárias</string>
+
+    <!-- Used in initial prayers -->
+
+    <string name="ipr_title" translatable="true">Orações Iniciais</string>
+    <string name="ipr_saint_espirit" translatable="true">&pres; Vinde, Espírito Santo, enchei os corações dos Vossos fiéis e acendei neles o fogo do Vosso amor.\nEnviai o Vosso Espírito e tudo será criado.\n&resp;
+        E renovareis a face da terra.</string>
+    <string name="ipr_initial_pray" translatable="true">&pres; Oremos: Ó Deus, que santificais a Vossa Igreja inteira, em todos os povos e nações, derramai por toda a extensão do mundo os dons do Espírito Santo e realizai agora no coração dos fiéis as maravilhas que operastes no início da pregação do Evangelho. Por nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo. &resp;
+        Amém.</string>
+    <string name="ipr_rosary_quarter" translatable="true">&pres; Abri meus lábios, ó Senhor.\n&resp;
+        E a minha boca anunciará o Vosso louvor.\n&pres; Vinde, ó Deus, em meu auxílio.\n&resp;
+        Socorrei-me sem demora.\n&pres; Glória ao Pai, ao Filho e ao Espírito Santo\n&resp; Como era no princípio, agora e sempre.\nAmém.\n\n(Segue-se o quarto do rosário, terminado pela Salve Rainha)\n\n&pres;
+        Rogai por nós, Santa Mãe de Deus.\n&resp; Para que sejamos dignos das promessas de Cristo.</string>
+    <string name="ipr_final_pray" translatable="true">&pres; Oremos: Ó Deus, cujo Filho Unigênito, por Sua vida, morte e ressurreição, nos obteve o prêmio da salvação eterna, concedei-nos, nós Vô-lo pedimos que, meditando estes mistérios da Bem-Aventurada Virgem Maria, imitemos o que contém e consigamos o que prometem. Pelo mesmo Cristo, Senhor Nosso.\n&resp;
+        Amém.</string>
+    <string name="ipr_invocations" translatable="true">&pres; Coração Sacratíssimo de Jesus,\n&resp;
+        Tende piedade de nós.\n&pres; Coração Imaculado de Maria,\n&resp; Rogai por nós.\n&pres; São José,\n&resp;
+        Rogai por nós.\n&pres; São João Evangelista,\n&resp; Rogai por nós.\n&pres; São Luís Maria de Monfort,\n&resp;
+        Rogai por nós.\n</string>
+    <string name="ipr_addendum">e Quarto do Rosário</string>
+
+    <!-- Used in final prayers -->
+
+    <string name="fpr_title" translatable="true">Orações Finais</string>
+    <string name="fpr_sub_tuum" translatable="true">&pres; À Vossa proteção recorremos, Santa Mãe de Deus. Não desprezei as súplicas que em nossas necessidades vos dirigimos, mas livrai-nos sempre de todos os perigos, ó Virgem gloriosa e bendita.</string>
+    <string name="fpr_invocations_external" translatable="true">&pres; (Invocação própria do Præsidium)\n(Fora das reuniões do Præsidium reza-se sempre a invocação seguinte:\n&pres;
+        Maria Imaculada, Medianeira de todas as graças\n&resp; Rogai por nós).</string>
+    <string name="fpr_invocations" translatable="true">&pres; São Miguel, São Gabriel &amp;\u00A0São Rafael,\n&resp;
+        Rogai por nós.\n&pres;Milícias todas dos céus,\nLegião dos Anjos de Maria\n&resp; Rogai por nós.\n&pres;São João Batista\n&resp;
+        Rogai por nós.\n&pres;São Pedro e São Paulo\n&resp; Rogai por nós.</string>
+    <string name="fpr_final_prayers" translatable="true">&all; Concedei-nos, Senhor, a nós que militamos sob o estandarte da Virgem, aquela plenitude de fé em Vós e de confiança em Maria, que nos assegurem a conquista do mundo.\nDai-nos uma fé viva, animada pela caridade, que nos leve a praticar as nossas ações, unicamente por amor de vós, e a ver-Vos e a servir-Vos sempre no nosso próximo; uma fé firme e inabalável como a rocha, que nos conserve calmos e resolutos no meio das cruzes, trabalhos e decepções da vida; uma fé corajosa que nos anime a empreender e prosseguir, sem hesitação, grandes coisas por Deus e pela salvação do próximo; uma fé que seja a Coluna de Fogo da nossa Legião, que nos guie avante unidos, para acender em todos a chama do Amor divino; iluminar os que estão nas trevas e sombras da morte; animar os indecisos; restituir a vida aso mortos no pecado; e nos dirija os passos no caminho da paz.\nDe forma que terminada a batalha da vida, a nossa Legião possa reunir-se, sem uma só perda, no Reino de Vosso Amor e Glória.\nAmém. </string>
+    <string name="fpr_rip" translatable="true">&pres; Que as almas dos Legionários e de todos os fiéis defuntos, pela misericórdia de Deus, descansem em paz.\n&resp;
+        Amém.\n\n\t(Segue-se a bênção do Diretor Espiritual)</string>
+    <string name="fpr_addendum">e bênção do Diretor Espiritual</string>
+
+    <!-- Used in rosary quarter -->
+
+    <string name="rqt_title" translatable="true">Quarto do Rosário</string>
+
+</resources>

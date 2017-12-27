@@ -1,0 +1,78 @@
+<!DOCTYPE resources [<!ENTITY pres "<font color='@android:color/holo_red_dark'>Ᵽ.</font>"><!ENTITY resp "<font color='@android:color/holo_red_dark'>℟.</font>"><!ENTITY cruz "<font color='@android:color/holo_red_dark'><b>♱</b></font>"><!ENTITY antif "<font color='@android:color/holo_red_dark'><b>Ant.</b></font>"><!ENTITY all "<font color='@android:color/holo_red_dark'>Ⱦ.</font>">]>
+<resources>
+    <string name="app_name">meeting</string>
+
+    <!-- Used in Permanent Instruction -->
+
+    <string name="pin_title" translatable="true">Instrução Permanente</string>
+    <string name="pin_addendum" translatable="true">(1ª reunião do mês)</string>
+    <string name="pin_start" translatable="true">&pres; O Serviço Legionário exige de cada membro da Legião: </string>
+    <string name="pin_first" translatable="true"><font color='@android:color/holo_red_dark'>Primeiro:</font> A assistência pontual e regular à reunião semanal do Præsidium, onde deve apresentar em voz alta e compreensível o relatório exato do trabalho realizado.</string>
+    <string name="pin_second" translatable="true"><font color='@android:color/holo_red_dark'>Segundo:</font> A reza diária da Catena.</string>
+    <string name="pin_third" translatable="true"><font color='@android:color/holo_red_dark'>Terceiro:</font> A execução de um trabalho legionário, ativo e bem definido, em espírito de fé e união com Maria, de tal forma que, pelo legionário, seja Maria, a Mãe de Jesus, que mais uma vez contemple e sirva a pessoa Adorável de seu divino Filho, naqueles por quem o legionário trabalha e nos seus colegas de ação.</string>
+    <string name="pin_forth" translatable="true"><font color='@android:color/holo_red_dark'>Quarto:</font> Segredo absoluto sobre os assuntos tratados em reunião ou conhecidos na realização da atividade legionária.</string>
+
+    <!-- Used in Frank Duff beatification prayer -->
+
+    <string name="fdf_title" translatable="true">Oração pela Beatificação de Frank Duff</string>
+    <string name="fdf_init_pray" translatable="true">&all; Deus Pai, Vós inspirastes ao vosso servo Frank Duff, um profundo discernimento do mistério de vossa Igreja,  Corpo de Cristo, e do lugar de Maria, Mãe de Deus, neste mistério.\nEm seu imenso desejo de compartilhar este discernimento com outros e, em dependência filial de Maria, ele fundou uma Legião para ser um sinal do maternal Amor da Virgem pelo mundo e um meio de engajar todos os seus filhos no trabalho de evangelização da Igreja.\nNós vos agradecemos, Pai, pelas graças a ele concedidas e pelos benefícios advindos à Igreja, por sua corajosa e radiante fé.\nAgora, confiadamente, rogamos que, por sua intercessão, nos concedais a graça que vos suplicamos…</string>
+    <string name="fdf_fin_pray" translatable="true">&all; Humildemente vos pedimos, também que, se de acordo com a Vossa Vontade, a santidade de sua vida possa ser reconhecida pela Igreja, o mais breve possível, para a glória de Vosso Nome.\nÉ o que vos pedimos, por Cristo, Nosso Senhor, Amém.\n\n(Com aprovação eclesiástica)</string>
+
+    <!-- Used in spiritual reading -->
+
+    <string name="spr_title" translatable="true">Leitura Espiritual</string>
+    <string name="spr_addendum">(5 minutos)</string>
+
+    <!-- Used in worksheet -->
+
+    <string name="wks_title" translatable="true">Folha de Trabalho</string>
+    <string name="wks_date" translatable="true">Data: </string>
+    <string name="wks_time" translatable="true">Horário: </string>
+    <string name="wks_name" translatable="true">Præsidium</string>
+
+    <!-- Used in the minutes reading -->
+
+    <string name="mnr_title" translatable="true">Leitura da Ata</string>
+
+    <!-- Used in treasurer report -->
+
+    <string name="trr_title" translatable="true">Relatório do Tesoureiro</string>
+
+    <!-- Used in work reports -->
+
+    <string name="wrl_title" translatable="true">Relatório Individual</string>
+    <string name="wrl_addendum">(Apresentação dos Trabalhos)</string>
+
+    <!-- Used in alocuttio -->
+
+    <string name="alt_title" translatable="true">Alocução</string>
+    <string name="alt_addendum" translatable="true">(5 minutos)</string>
+
+    <!-- Used in secret collection -->
+
+    <string name="scl_title" translatable="true">Coleta Secreta</string>
+
+    <!-- Used in other matters -->
+
+    <string name="omt_title" translatable="true">Outros Assuntos</string>
+    <string name="omt_addendum" translatable="true">(relatório da reunião da Cúria, etc.)</string>
+
+    <!-- Used in study -->
+
+    <string name="std_title" translatable="true">Estudo</string>
+    <string name="std_addendum" translatable="true">(10 minutos)</string>
+
+    <!-- Used in Work distribution -->
+
+    <string name="wds_title" translatable="true">Distribuição dos trabalhos</string>
+    <string name="wds_addendum" translatable="true">para a semana seguinte</string>
+
+    <!-- Used in callings -->
+
+    <string name="cal_title" translatable="true">Chamada</string>
+    <string name="cal_addendum" translatable="true">(Boas-vindas, se houver visitas da Cúria ou novos membros)</string>
+
+    <!-- Used in recruiting -->
+
+    <string name="rcr_title">Recrutamento</string>
+</resources>

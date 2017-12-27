@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="legiomariae.org.br.legiomariae">
+    package="org.legiomariae">
 
-    <uses-permission android:name="android.permission.SET_ALARM"/>
-    <uses-permission android:name="android.permission.VIBRATE"/>
     <application
         android:allowBackup="true"
         android:fullBackupContent="@xml/backup"
@@ -13,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/MyAppTheme">
         <activity
-            android:name=".splash.SplashActivity"
+            android:name="org.legiomariae.legiomariae.splash.SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".meeting.NavigationActivity"
+            android:name="org.legiomariae.legiomariae.NavigationActivity"
             android:label=""
             android:theme="@style/MyAppTheme">
             <intent-filter>

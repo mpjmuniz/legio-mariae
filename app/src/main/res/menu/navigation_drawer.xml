@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
     <item
-        android:title="@string/daily_prayers"
+        android:title="@string/nav_daily_prayers"
         >
         <menu>
             <item
@@ -28,5 +28,10 @@
             android:checkable="true"/>
         </menu>
     </item>
+    <group android:id="@+id/nav_manual_cat">
+        <item android:id="@+id/nav_manual"
+              android:title="@string/man_title"
+              android:checkable="true"/>
+    </group>
 
 </menu>
