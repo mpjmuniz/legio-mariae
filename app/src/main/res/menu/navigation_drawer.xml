@@ -11,7 +11,7 @@
                 android:title="@string/cat_title"
                 android:checkable="true"/>
             <item
-                android:id="@+id/nav_quarto"
+                android:id="@+id/nav_quarter"
                 android:title="@string/rqt_title"
                 android:checkable="true"/>
         </menu>

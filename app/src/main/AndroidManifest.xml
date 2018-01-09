@@ -22,7 +22,8 @@
         <activity
             android:name="org.legiomariae.legiomariae.NavigationActivity"
             android:label=""
-            android:theme="@style/MyAppTheme">
+            android:theme="@style/MyAppTheme"
+            android:configChanges="keyboardHidden|keyboard|orientation">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
             </intent-filter>

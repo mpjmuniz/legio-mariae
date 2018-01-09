@@ -6,8 +6,10 @@ import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
+import android.view.View
 import kotlinx.android.synthetic.main.activity_navigation.*
 import org.legiomariae.R
+import org.legiomariae.R.id.*
 import org.legiomariae.manual.ManualFragment
 import org.legiomariae.meeting.MeetingFragment
 import org.legiomariae.meeting.worksheet.WorksheetFragment
@@ -23,28 +25,59 @@ class NavigationActivity : AppCompatActivity(), NavigationView.OnNavigationItemS
     * */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_navigation)
-        fragmentManager.beginTransaction()
-                .replace(R.id.mainFragment, org.legiomariae.tessera.CatenaFragment(), tag)
-                .commit()
-        setSupportActionBar(toolbar)
 
-        val toggle = ActionBarDrawerToggle(
-                this, drawer_layout, toolbar, R.string.all_nav_draw_open, R.string.all_nav_draw_close)
+        setContentView(R.layout.activity_navigation)
+        setSupportActionBar(toolbar)
+        val toggle = object : ActionBarDrawerToggle(
+                this, drawer_layout, toolbar,
+                R.string.all_nav_draw_open,
+                R.string.all_nav_draw_close){
+
+            override fun onDrawerSlide(drawerView: View, slideOffset: Float) {
+                if (drawer_layout.isDrawerVisible(GravityCompat.END)) {
+                    if (fragmentManager.findFragmentByTag(tag) !is ManualFragment) {
+                        nav_right_view.background = null
+                        drawer_layout.closeDrawer(GravityCompat.END)
+                    }
+                    else
+                        (fragmentManager.findFragmentByTag(tag) as ManualFragment).inflateToc(nav_right_view)
+                }
+
+                super.onDrawerSlide(drawerView, slideOffset)
+            }
+        }
+        displayFragment(savedInstanceState?.getInt("outerFragment") ?: nav_catena)
         drawer_layout.addDrawerListener(toggle)
         toggle.syncState()
         nav_left_view.setNavigationItemSelectedListener(this)
-        tvFragmentTitle.text = getString(R.string.cat_title)
+    }
+
+    override fun onSaveInstanceState(outState: Bundle?) {
+
+        val fragmentId = when(fragmentManager.findFragmentByTag(tag)){
+            is RosaryQuarterFragment -> nav_quarter
+            is MeetingFragment -> nav_meeting
+            is ManualFragment -> nav_manual
+            is WorksheetFragment -> nav_worksheet
+            else -> nav_catena
+        }
+
+        outState?.putInt("outerFragment", fragmentId)
+
+        super.onSaveInstanceState(outState)
     }
 
     /*
     * android studio generated code, no need to test
     * */
     override fun onBackPressed() {
-        if (drawer_layout.isDrawerOpen(GravityCompat.START)) {
-            drawer_layout.closeDrawer(GravityCompat.START)
-        } else {
-            super.onBackPressed()
+        when {
+            drawer_layout.isDrawerOpen(GravityCompat.START)
+                -> drawer_layout.closeDrawer(GravityCompat.START)
+            drawer_layout.isDrawerOpen(GravityCompat.END)
+                -> drawer_layout.closeDrawer(GravityCompat.END)
+            else
+                -> super.onBackPressed()
         }
     }
 
@@ -52,52 +85,100 @@ class NavigationActivity : AppCompatActivity(), NavigationView.OnNavigationItemS
     * Only screen redirection code, no need to test
     * */
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        val currentFragment = fragmentManager.findFragmentByTag(tag)
+        displayFragment(item.itemId)
 
-        when (item.itemId) {
+        drawer_layout.closeDrawer(GravityCompat.START)
+        return true
+    }
+
+    private fun displayFragment(fragId : Int){
+        val currentFragment = fragmentManager.findFragmentByTag(tag)
+/*
+        val (title, fragment) = when(fragId){
+            R.id.nav_quarter -> {
+                if(currentFragment !is RosaryQuarterFragment) {
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.mainFragment, RosaryQuarterFragment(), tag)
+                            .commit()
+                }
+                tvFragmentTitle.text = getString(R.string.rqt_title)
+            }
+                R.id.nav_meeting -> {
+                if(currentFragment !is MeetingFragment){
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.mainFragment, MeetingFragment(), tag)
+                            .commit()
+                }
+                tvFragmentTitle.text = getString(R.string.wmt_title)
+            }
+                R.id.nav_worksheet -> {
+                if(currentFragment !is WorksheetFragment){
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.mainFragment, WorksheetFragment(), tag)
+                            .commit()
+                }
+                tvFragmentTitle.text = getString(R.string.wks_title)
+            }
+                R.id.nav_manual -> {
+                if(currentFragment !is ManualFragment){
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.mainFragment, ManualFragment(), tag)
+                            .commit()
+                }
+                tvFragmentTitle.text = getString(R.string.man_title)
+            }
+            else {
+                getString(R.string.cat_title), CatenaFragment()
+            }
+        }
+
+
+        fragmentManager.beginTransaction()
+                .replace(R.id.mainFragment, fragment, tag)
+                .commit()
+        tvFragmentTitle.text = title
+*/
+        when (fragId) {
             R.id.nav_catena -> {
                 if(currentFragment !is CatenaFragment) {
                     fragmentManager.beginTransaction()
                             .replace(R.id.mainFragment, CatenaFragment(), tag)
                             .commit()
-                    tvFragmentTitle.text = getString(R.string.cat_title)
                 }
+                tvFragmentTitle.text = getString(R.string.cat_title)
             }
-            R.id.nav_quarto -> {
+            R.id.nav_quarter -> {
                 if(currentFragment !is RosaryQuarterFragment) {
                     fragmentManager.beginTransaction()
                             .replace(R.id.mainFragment, RosaryQuarterFragment(), tag)
                             .commit()
-                    tvFragmentTitle.text = getString(R.string.rqt_title)
                 }
+                tvFragmentTitle.text = getString(R.string.rqt_title)
             }
             R.id.nav_meeting -> {
                 if(currentFragment !is MeetingFragment){
                     fragmentManager.beginTransaction()
-                        .replace(R.id.mainFragment, MeetingFragment(), tag)
-                        .commit()
-                    tvFragmentTitle.text = getString(R.string.wmt_title)
+                            .replace(R.id.mainFragment, MeetingFragment(), tag)
+                            .commit()
                 }
+                tvFragmentTitle.text = getString(R.string.wmt_title)
             }
             R.id.nav_worksheet -> {
                 if(currentFragment !is WorksheetFragment){
                     fragmentManager.beginTransaction()
                             .replace(R.id.mainFragment, WorksheetFragment(), tag)
                             .commit()
-                    tvFragmentTitle.text = getString(R.string.wks_title)
                 }
+                tvFragmentTitle.text = getString(R.string.wks_title)
             }
             R.id.nav_manual -> {
                 if(currentFragment !is ManualFragment){
                     fragmentManager.beginTransaction()
                             .replace(R.id.mainFragment, ManualFragment(), tag)
                             .commit()
-                    tvFragmentTitle.text = getString(R.string.man_title)
                 }
+                tvFragmentTitle.text = getString(R.string.man_title)
             }
         }
-
-        drawer_layout.closeDrawer(GravityCompat.START)
-        return true
     }
 }

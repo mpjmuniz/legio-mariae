@@ -37,6 +37,14 @@ class RosaryQuarterFragment : Fragment() {
                 pager.currentItem = position
             }
         })
+
+        pager.currentItem = savedInstanceState?.getInt("currentFragment") ?: 0
+    }
+
+    @RequiresApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
+    override fun onSaveInstanceState(outState: Bundle?) {
+        outState?.putInt("currentFragment", pager.currentItem)
+        super.onSaveInstanceState(outState)
     }
 
     /*
