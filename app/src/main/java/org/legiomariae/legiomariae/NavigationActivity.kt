@@ -1,3 +1,4 @@
+
 package org.legiomariae.legiomariae
 
 import android.os.Bundle
@@ -92,93 +93,25 @@ class NavigationActivity : AppCompatActivity(), NavigationView.OnNavigationItemS
     }
 
     private fun displayFragment(fragId : Int){
-        val currentFragment = fragmentManager.findFragmentByTag(tag)
-/*
-        val (title, fragment) = when(fragId){
-            R.id.nav_quarter -> {
-                if(currentFragment !is RosaryQuarterFragment) {
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.mainFragment, RosaryQuarterFragment(), tag)
-                            .commit()
-                }
-                tvFragmentTitle.text = getString(R.string.rqt_title)
-            }
-                R.id.nav_meeting -> {
-                if(currentFragment !is MeetingFragment){
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.mainFragment, MeetingFragment(), tag)
-                            .commit()
-                }
-                tvFragmentTitle.text = getString(R.string.wmt_title)
-            }
-                R.id.nav_worksheet -> {
-                if(currentFragment !is WorksheetFragment){
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.mainFragment, WorksheetFragment(), tag)
-                            .commit()
-                }
-                tvFragmentTitle.text = getString(R.string.wks_title)
-            }
-                R.id.nav_manual -> {
-                if(currentFragment !is ManualFragment){
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.mainFragment, ManualFragment(), tag)
-                            .commit()
-                }
-                tvFragmentTitle.text = getString(R.string.man_title)
-            }
-            else {
-                getString(R.string.cat_title), CatenaFragment()
-            }
+        val fragment = when(fragId){
+            R.id.nav_quarter -> RosaryQuarterFragment()
+            R.id.nav_meeting -> MeetingFragment()
+            R.id.nav_worksheet -> WorksheetFragment()
+            R.id.nav_manual -> ManualFragment()
+            else -> CatenaFragment()
         }
 
+        val title = when(fragId){
+            R.id.nav_quarter -> getString(R.string.rqt_title)
+            R.id.nav_meeting -> getString(R.string.wmt_title)
+            R.id.nav_worksheet -> getString(R.string.wks_title)
+            R.id.nav_manual -> getString(R.string.man_title)
+            else -> getString(R.string.cat_title)
+        }
 
         fragmentManager.beginTransaction()
-                .replace(R.id.mainFragment, fragment, tag)
-                .commit()
+            .replace(R.id.mainFragment, fragment, tag)
+            .commit()
         tvFragmentTitle.text = title
-*/
-        when (fragId) {
-            R.id.nav_catena -> {
-                if(currentFragment !is CatenaFragment) {
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.mainFragment, CatenaFragment(), tag)
-                            .commit()
-                }
-                tvFragmentTitle.text = getString(R.string.cat_title)
-            }
-            R.id.nav_quarter -> {
-                if(currentFragment !is RosaryQuarterFragment) {
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.mainFragment, RosaryQuarterFragment(), tag)
-                            .commit()
-                }
-                tvFragmentTitle.text = getString(R.string.rqt_title)
-            }
-            R.id.nav_meeting -> {
-                if(currentFragment !is MeetingFragment){
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.mainFragment, MeetingFragment(), tag)
-                            .commit()
-                }
-                tvFragmentTitle.text = getString(R.string.wmt_title)
-            }
-            R.id.nav_worksheet -> {
-                if(currentFragment !is WorksheetFragment){
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.mainFragment, WorksheetFragment(), tag)
-                            .commit()
-                }
-                tvFragmentTitle.text = getString(R.string.wks_title)
-            }
-            R.id.nav_manual -> {
-                if(currentFragment !is ManualFragment){
-                    fragmentManager.beginTransaction()
-                            .replace(R.id.mainFragment, ManualFragment(), tag)
-                            .commit()
-                }
-                tvFragmentTitle.text = getString(R.string.man_title)
-            }
-        }
     }
 }

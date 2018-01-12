@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+   "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:879DA6C4-8B0E-47FC-8CF0-4B845850C0D5"/>
+    <meta name="dtb:depth" content="3"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Manual Oficial da Legião de Maria</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-1" playOrder="1">
+      <navLabel>
+        <text>MANUAL OFICIAL DA LEGIÃO DE MARIA</text>
+      </navLabel>
+      <content src="Text/Section0001.html"/>
+      <navPoint id="navPoint-2" playOrder="2">
+        <navLabel>
+          <text>Índice Geral dos Assuntos</text>
+        </navLabel>
+        <content src="Text/Section0001.html#sigil_toc_id_1"/>
+      </navPoint>
+      <navPoint id="navPoint-3" playOrder="3">
+        <navLabel>
+          <text>Abreviaturas dos Livros da Sagrada Escritura</text>
+        </navLabel>
+        <content src="Text/Section0001.html#sigil_toc_id_2"/>
+      </navPoint>
+      <navPoint id="navPoint-4" playOrder="4">
+        <navLabel>
+          <text>Abreviaturas dos Documentos do Magistério</text>
+        </navLabel>
+        <content src="Text/Section0001.html#sigil_toc_id_3"/>
+      </navPoint>
+      <navPoint id="navPoint-5" playOrder="5">
+        <navLabel>
+          <text>João Paulo II à Legião de Maria</text>
+        </navLabel>
+        <content src="Text/Section0001.html#sigil_toc_id_4"/>
+      </navPoint>
+      <navPoint id="navPoint-6" playOrder="6">
+        <navLabel>
+          <text>Nota Preliminar</text>
+        </navLabel>
+        <content src="Text/Section0001.html#sigil_toc_id_5"/>
+      </navPoint>
+      <navPoint id="navPoint-7" playOrder="7">
+        <navLabel>
+          <text>FRANK DUFF</text>
+        </navLabel>
+        <content src="Text/Section0001.html#sigil_toc_id_6"/>
+      </navPoint>
+      <navPoint id="navPoint-8" playOrder="8">
+        <navLabel>
+          <text>1 NOME E ORIGEM</text>
+        </navLabel>
+        <content src="Text/Section0002.html"/>
+      </navPoint>
+      <navPoint id="navPoint-9" playOrder="9">
+        <navLabel>
+          <text>2 FINALIDADE DA LEGIÃO</text>
+        </navLabel>
+        <content src="Text/Section0002.html#sigil_toc_id_7"/>
+      </navPoint>
+      <navPoint id="navPoint-10" playOrder="10">
+        <navLabel>
+          <text>3 O ESPÍRITO DA LEGIÃO</text>
+        </navLabel>
+        <content src="Text/Section0002.html#sigil_toc_id_8"/>
+      </navPoint>
+      <navPoint id="navPoint-11" playOrder="11">
+        <navLabel>
+          <text>4 SERVIÇO LEGIONÁRIO</text>
+        </navLabel>
+        <content src="Text/Section0002.html#sigil_toc_id_9"/>
+        <navPoint id="navPoint-12" playOrder="12">
+          <navLabel>
+            <text>1. O legionário deve “revestir-se da armadura de Deus” (Ef 6, 11).</text>
+          </navLabel>
+          <content src="Text/Section0002.html#sigil_toc_id_10"/>
+        </navPoint>
+        <navPoint id="navPoint-13" playOrder="13">
+          <navLabel>
+            <text>2. O legionário deve ser “uma hóstia viva, santa, agradável a Deus... não conformado com este século” (Rm 12, 1-2).</text>
+          </navLabel>
+          <content src="Text/Section0002.html#sigil_toc_id_11"/>
+        </navPoint>
+        <navPoint id="navPoint-14" playOrder="14">
+          <navLabel>
+            <text>3. O legionário não deve furtar-se ao “trabalho e à fadiga” (2Cor 11, 27).</text>
+          </navLabel>
+          <content src="Text/Section0002.html#sigil_toc_id_12"/>
+        </navPoint>
+        <navPoint id="navPoint-15" playOrder="15">
+          <navLabel>
+            <text>4. O legionário deve “andar no amor, como também Cristo nos amou e se entregou a Si mesmo por nós” (Ef 5, 2).</text>
+          </navLabel>
+          <content src="Text/Section0002.html#sigil_toc_id_13"/>
+        </navPoint>
+        <navPoint id="navPoint-16" playOrder="16">
+          <navLabel>
+            <text>5. O legionário deve “acabar a sua carreira” (2Tm 4, 7).</text>
+          </navLabel>
+          <content src="Text/Section0002.html#sigil_toc_id_14"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-17" playOrder="17">
+        <navLabel>
+          <text>5 ESPIRITUALIDADE DA LEGIÃO</text>
+        </navLabel>
+        <content src="Text/Section0002.html#sigil_toc_id_15"/>
+        <navPoint id="navPoint-18" playOrder="18">
+          <navLabel>
+            <text>1. Deus e Maria</text>
+          </navLabel>
+          <content src="Text/Section0002.html#sigil_toc_id_16"/>
+        </navPoint>
+        <navPoint id="navPoint-19" playOrder="19">
+          <navLabel>
+            <text>2. Maria, Medianeira de todas as graças</text>
+          </navLabel>
+          <content src="Text/Section0002.html#sigil_toc_id_17"/>
+        </navPoint>
+        <navPoint id="navPoint-20" playOrder="20">
+          <navLabel>
+            <text>3. Maria Imaculada</text>
+          </navLabel>
+          <content src="Text/Section0002.html#sigil_toc_id_18"/>
+        </navPoint>
+        <navPoint id="navPoint-21" playOrder="21">
+          <navLabel>
+            <text>4. Maria, nossa Mãe</text>
+          </navLabel>
+          <content src="Text/Section0002.html#sigil_toc_id_19"/>
+        </navPoint>
+        <navPoint id="navPoint-22" playOrder="22">
+          <navLabel>
+            <text>5. A devoção legionária, raiz do seu apostolado</text>
+          </navLabel>
+          <content src="Text/Section0002.html#sigil_toc_id_20"/>
+        </navPoint>
+        <navPoint id="navPoint-23" playOrder="23">
+          <navLabel>
+            <text>6. Oh! Se Maria fosse conhecida!</text>
+          </navLabel>
+          <content src="Text/Section0002.html#sigil_toc_id_21"/>
+        </navPoint>
+        <navPoint id="navPoint-24" playOrder="24">
+          <navLabel>
+            <text>7. Levar Maria ao mundo</text>
+          </navLabel>
+          <content src="Text/Section0002.html#sigil_toc_id_22"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-25" playOrder="25">
+        <navLabel>
+          <text>6 OS DEVERES DOS LEGIONÁRIOS PARA COM MARIA</text>
+        </navLabel>
+        <content src="Text/Section0003.html"/>
+        <navPoint id="navPoint-26" playOrder="26">
+          <navLabel>
+            <text>1. Cada legionário terá, para com Maria, uma profunda devoção, incessantemente renovada por sérias meditações e zelosas práticas. Deve considerar esta devoção como um dos deveres legionários essenciais e, de todos, o mais importante.</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_23"/>
+        </navPoint>
+        <navPoint id="navPoint-27" playOrder="27">
+          <navLabel>
+            <text>2. A imitação da humildade de Maria: raiz e instrumento da ação legionária</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_24"/>
+        </navPoint>
+        <navPoint id="navPoint-28" playOrder="28">
+          <navLabel>
+            <text>3. A genuína devoção a Maria obriga ao apostolado</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_25"/>
+        </navPoint>
+        <navPoint id="navPoint-29" playOrder="29">
+          <navLabel>
+            <text>4. A intensidade do esforço no serviço de Maria</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_26"/>
+        </navPoint>
+        <navPoint id="navPoint-30" playOrder="30">
+          <navLabel>
+            <text>5. Os legionários devem praticar a Verdadeira Devoção à Santíssima Virgem, segundo São Luís Maria de Montfort</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_27"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-31" playOrder="31">
+        <navLabel>
+          <text>7 O LEGIONÁRIO E A SANTÍSSIMA TRINDADE</text>
+        </navLabel>
+        <content src="Text/Section0003.html#sigil_toc_id_28"/>
+      </navPoint>
+      <navPoint id="navPoint-32" playOrder="32">
+        <navLabel>
+          <text>8 O LEGIONÁRIO E A EUCARISTIA</text>
+        </navLabel>
+        <content src="Text/Section0003.html#sigil_toc_id_29"/>
+        <navPoint id="navPoint-33" playOrder="33">
+          <navLabel>
+            <text>1. A Santa Missa</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_30"/>
+        </navPoint>
+        <navPoint id="navPoint-34" playOrder="34">
+          <navLabel>
+            <text>2. Liturgia da Palavra</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_31"/>
+        </navPoint>
+        <navPoint id="navPoint-35" playOrder="35">
+          <navLabel>
+            <text>3. A Liturgia da Eucaristia em união com Maria</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_32"/>
+        </navPoint>
+        <navPoint id="navPoint-36" playOrder="36">
+          <navLabel>
+            <text>4. A Eucaristia, nosso tesouro</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_33"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-37" playOrder="37">
+        <navLabel>
+          <text>9 O LEGIONÁRIO E O CORPO MÍSTICO DE CRISTO</text>
+        </navLabel>
+        <content src="Text/Section0003.html#sigil_toc_id_34"/>
+        <navPoint id="navPoint-38" playOrder="38">
+          <navLabel>
+            <text>1. O serviço legionário é baseado nesta doutrina</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_35"/>
+        </navPoint>
+        <navPoint id="navPoint-39" playOrder="39">
+          <navLabel>
+            <text>2. Maria e o Corpo Místico</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_36"/>
+        </navPoint>
+        <navPoint id="navPoint-40" playOrder="40">
+          <navLabel>
+            <text>3. O sofrimento no Corpo Místico</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_37"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-41" playOrder="41">
+        <navLabel>
+          <text>10 APOSTOLADO DA LEGIÃO</text>
+        </navLabel>
+        <content src="Text/Section0003.html#sigil_toc_id_38"/>
+        <navPoint id="navPoint-42" playOrder="42">
+          <navLabel>
+            <text>1. Dignidade do Apostolado</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_39"/>
+        </navPoint>
+        <navPoint id="navPoint-43" playOrder="43">
+          <navLabel>
+            <text>2. Absoluta necessidade do Apostolado dos Leigos</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_40"/>
+        </navPoint>
+        <navPoint id="navPoint-44" playOrder="44">
+          <navLabel>
+            <text>3. A Legião e o Apostolado dos Leigos</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_41"/>
+        </navPoint>
+        <navPoint id="navPoint-45" playOrder="45">
+          <navLabel>
+            <text>4. O Sacerdote e a Legião</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_42"/>
+        </navPoint>
+        <navPoint id="navPoint-46" playOrder="46">
+          <navLabel>
+            <text>5. A Legião na Paróquia</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_43"/>
+        </navPoint>
+        <navPoint id="navPoint-47" playOrder="47">
+          <navLabel>
+            <text>6. Um idealismo forte e uma ação intensa, frutos da Legião</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_44"/>
+        </navPoint>
+        <navPoint id="navPoint-48" playOrder="48">
+          <navLabel>
+            <text>7. Formação apostólica pelo método mestre e aprendiz</text>
+          </navLabel>
+          <content src="Text/Section0003.html#sigil_toc_id_45"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-49" playOrder="49">
+        <navLabel>
+          <text>11 O PLANO DA LEGIÃO</text>
+        </navLabel>
+        <content src="Text/Section0004.html"/>
+        <navPoint id="navPoint-50" playOrder="50">
+          <navLabel>
+            <text>1. A santificação pessoal: fim e meio</text>
+          </navLabel>
+          <content src="Text/Section0004.html#sigil_toc_id_46"/>
+        </navPoint>
+        <navPoint id="navPoint-51" playOrder="51">
+          <navLabel>
+            <text>2. Um sistema perfeitamente organizado</text>
+          </navLabel>
+          <content src="Text/Section0004.html#sigil_toc_id_47"/>
+        </navPoint>
+        <navPoint id="navPoint-52" playOrder="52">
+          <navLabel>
+            <text>3. A perfeição dos membros</text>
+          </navLabel>
+          <content src="Text/Section0004.html#sigil_toc_id_48"/>
+        </navPoint>
+        <navPoint id="navPoint-53" playOrder="53">
+          <navLabel>
+            <text>4. A obrigação principal</text>
+          </navLabel>
+          <content src="Text/Section0004.html#sigil_toc_id_49"/>
+        </navPoint>
+        <navPoint id="navPoint-54" playOrder="54">
+          <navLabel>
+            <text>5. A reunião semanal do Praesidium</text>
+          </navLabel>
+          <content src="Text/Section0004.html#sigil_toc_id_50"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-55" playOrder="55">
+        <navLabel>
+          <text>12 FINS EXTERNOS DA LEGIÃO</text>
+        </navLabel>
+        <content src="Text/Section0004.html#sigil_toc_id_51"/>
+        <navPoint id="navPoint-56" playOrder="56">
+          <navLabel>
+            <text>1. O trabalho atualmente em curso</text>
+          </navLabel>
+          <content src="Text/Section0004.html#sigil_toc_id_52"/>
+        </navPoint>
+        <navPoint id="navPoint-57" playOrder="57">
+          <navLabel>
+            <text>2. O fim mais remoto e mais elevado: o fermento da comunidade</text>
+          </navLabel>
+          <content src="Text/Section0004.html#sigil_toc_id_53"/>
+        </navPoint>
+        <navPoint id="navPoint-58" playOrder="58">
+          <navLabel>
+            <text>3. A união de todos os homens</text>
+          </navLabel>
+          <content src="Text/Section0004.html#sigil_toc_id_54"/>
+        </navPoint>
+        <navPoint id="navPoint-59" playOrder="59">
+          <navLabel>
+            <text>4. A grandiosa campanha pela causa de Deus</text>
+          </navLabel>
+          <content src="Text/Section0004.html#sigil_toc_id_55"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-60" playOrder="60">
+        <navLabel>
+          <text>13 CONDIÇÕES DE ADMISSÃO NA LEGIÃO</text>
+        </navLabel>
+        <content src="Text/Section0004.html#sigil_toc_id_56"/>
+      </navPoint>
+      <navPoint id="navPoint-61" playOrder="61">
+        <navLabel>
+          <text>14 O PRAESIDIUM</text>
+        </navLabel>
+        <content src="Text/Section0004.html#sigil_toc_id_57"/>
+      </navPoint>
+      <navPoint id="navPoint-62" playOrder="62">
+        <navLabel>
+          <text>15 COMPROMISSO LEGIONÁRIO(1)</text>
+        </navLabel>
+        <content src="Text/Section0004.html#sigil_toc_id_58"/>
+      </navPoint>
+      <navPoint id="navPoint-63" playOrder="63">
+        <navLabel>
+          <text>16 GRAUS SUPLEMENTARES DA LEGIÃO</text>
+        </navLabel>
+        <content src="Text/Section0005.html"/>
+        <navPoint id="navPoint-64" playOrder="64">
+          <navLabel>
+            <text>1. Os Pretorianos</text>
+          </navLabel>
+          <content src="Text/Section0005.html#sigil_toc_id_59"/>
+        </navPoint>
+        <navPoint id="navPoint-65" playOrder="65">
+          <navLabel>
+            <text>2. Membros Auxiliares</text>
+          </navLabel>
+          <content src="Text/Section0005.html#sigil_toc_id_60"/>
+        </navPoint>
+        <navPoint id="navPoint-66" playOrder="66">
+          <navLabel>
+            <text>Primeiro Grau: Os Auxiliares</text>
+          </navLabel>
+          <content src="Text/Section0005.html#sigil_toc_id_61"/>
+        </navPoint>
+        <navPoint id="navPoint-67" playOrder="67">
+          <navLabel>
+            <text>Grau Superior: Os Adjutores</text>
+          </navLabel>
+          <content src="Text/Section0005.html#sigil_toc_id_62"/>
+        </navPoint>
+        <navPoint id="navPoint-68" playOrder="68">
+          <navLabel>
+            <text>Observações gerais relativas aos dois graus de Auxiliares</text>
+          </navLabel>
+          <content src="Text/Section0005.html#sigil_toc_id_63"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-69" playOrder="69">
+        <navLabel>
+          <text>17 AS ALMAS DOS LEGIONÁRIOS FALECIDOS</text>
+        </navLabel>
+        <content src="Text/Section0005.html#sigil_toc_id_64"/>
+      </navPoint>
+      <navPoint id="navPoint-70" playOrder="70">
+        <navLabel>
+          <text>18 ORDEM A OBSERVAR NA REUNIÃO DO PRAESIDIUM</text>
+        </navLabel>
+        <content src="Text/Section0005.html#sigil_toc_id_65"/>
+        <navPoint id="navPoint-71" playOrder="71">
+          <navLabel>
+            <text>Instrução Permanente</text>
+          </navLabel>
+          <content src="Text/Section0005.html#sigil_toc_id_66"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-72" playOrder="72">
+        <navLabel>
+          <text>19 A REUNIÃO E O MEMBRO</text>
+        </navLabel>
+        <content src="Text/Section0005.html#sigil_toc_id_67"/>
+      </navPoint>
+      <navPoint id="navPoint-73" playOrder="73">
+        <navLabel>
+          <text>20 O SISTEMA LEGIONÁRIO NÃO DEVE SER ALTERADO</text>
+        </navLabel>
+        <content src="Text/Section0005.html#sigil_toc_id_68"/>
+      </navPoint>
+      <navPoint id="navPoint-74" playOrder="74">
+        <navLabel>
+          <text>21 O MÍSTICO LAR DE NAZARÉ</text>
+        </navLabel>
+        <content src="Text/Section0006.html"/>
+      </navPoint>
+      <navPoint id="navPoint-75" playOrder="75">
+        <navLabel>
+          <text>22 ORAÇÕES DA LEGIÃO</text>
+        </navLabel>
+        <content src="Text/Section0006.html#sigil_toc_id_69"/>
+        <navPoint id="navPoint-76" playOrder="76">
+          <navLabel>
+            <text>1. ORAÇÕES INICIAIS DA REUNIÃO</text>
+          </navLabel>
+          <content src="Text/Section0006.html#sigil_toc_id_70"/>
+        </navPoint>
+        <navPoint id="navPoint-77" playOrder="77">
+          <navLabel>
+            <text>CATENA LEGIONIS</text>
+          </navLabel>
+          <content src="Text/Section0006.html#sigil_toc_id_71"/>
+        </navPoint>
+        <navPoint id="navPoint-78" playOrder="78">
+          <navLabel>
+            <text>ORAÇÕES FINAIS</text>
+          </navLabel>
+          <content src="Text/Section0006.html#sigil_toc_id_72"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-79" playOrder="79">
+        <navLabel>
+          <text>23 AS ORAÇÕES SÃO INVARIÁVEIS</text>
+        </navLabel>
+        <content src="Text/Section0006.html#sigil_toc_id_73"/>
+      </navPoint>
+      <navPoint id="navPoint-80" playOrder="80">
+        <navLabel>
+          <text>24 PADROEIROS DA LEGIÃO</text>
+        </navLabel>
+        <content src="Text/Section0006.html#sigil_toc_id_74"/>
+        <navPoint id="navPoint-81" playOrder="81">
+          <navLabel>
+            <text>1. São José</text>
+          </navLabel>
+          <content src="Text/Section0006.html#sigil_toc_id_75"/>
+        </navPoint>
+        <navPoint id="navPoint-82" playOrder="82">
+          <navLabel>
+            <text>2. S. João Evangelista</text>
+          </navLabel>
+          <content src="Text/Section0006.html#sigil_toc_id_76"/>
+        </navPoint>
+        <navPoint id="navPoint-83" playOrder="83">
+          <navLabel>
+            <text>3. S. Luís Maria de Montfort</text>
+          </navLabel>
+          <content src="Text/Section0006.html#sigil_toc_id_77"/>
+        </navPoint>
+        <navPoint id="navPoint-84" playOrder="84">
+          <navLabel>
+            <text>4. S. Miguel Arcanjo</text>
+          </navLabel>
+          <content src="Text/Section0006.html#sigil_toc_id_78"/>
+        </navPoint>
+        <navPoint id="navPoint-85" playOrder="85">
+          <navLabel>
+            <text>5. S. Gabriel Arcanjo</text>
+          </navLabel>
+          <content src="Text/Section0006.html#sigil_toc_id_79"/>
+        </navPoint>
+        <navPoint id="navPoint-86" playOrder="86">
+          <navLabel>
+            <text>6. Milícias do Céu, Legião de Anjos de Maria</text>
+          </navLabel>
+          <content src="Text/Section0006.html#sigil_toc_id_80"/>
+        </navPoint>
+        <navPoint id="navPoint-87" playOrder="87">
+          <navLabel>
+            <text>7. S. João Batista</text>
+          </navLabel>
+          <content src="Text/Section0006.html#sigil_toc_id_81"/>
+        </navPoint>
+        <navPoint id="navPoint-88" playOrder="88">
+          <navLabel>
+            <text>8. S. Pedro</text>
+          </navLabel>
+          <content src="Text/Section0006.html#sigil_toc_id_82"/>
+        </navPoint>
+        <navPoint id="navPoint-89" playOrder="89">
+          <navLabel>
+            <text>9. S. Paulo</text>
+          </navLabel>
+          <content src="Text/Section0006.html#sigil_toc_id_83"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-90" playOrder="90">
+        <navLabel>
+          <text>25 O QUADRO DA LEGIÃO</text>
+        </navLabel>
+        <content src="Text/Section0006.html#sigil_toc_id_84"/>
+      </navPoint>
+      <navPoint id="navPoint-91" playOrder="91">
+        <navLabel>
+          <text>26 A TESSERA</text>
+        </navLabel>
+        <content src="Text/Section0007.html"/>
+      </navPoint>
+      <navPoint id="navPoint-92" playOrder="92">
+        <navLabel>
+          <text>27 VEXILLUM LEGIONIS</text>
+        </navLabel>
+        <content src="Text/Section0007.html#sigil_toc_id_85"/>
+        <navPoint id="navPoint-93" playOrder="93">
+          <navLabel>
+            <text>Vexillum Legionis</text>
+          </navLabel>
+          <content src="Text/Section0007.html#sigil_toc_id_86"/>
+        </navPoint>
+        <navPoint id="navPoint-94" playOrder="94">
+          <navLabel>
+            <text>O Estandarte da Legião</text>
+          </navLabel>
+          <content src="Text/Section0007.html#sigil_toc_id_87"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-95" playOrder="95">
+        <navLabel>
+          <text>28 ADMINISTRAÇAO DA LEGIÃO</text>
+        </navLabel>
+        <content src="Text/Section0007.html#sigil_toc_id_88"/>
+        <navPoint id="navPoint-96" playOrder="96">
+          <navLabel>
+            <text>1. Normas gerais para todos os Conselhos Administrativos</text>
+          </navLabel>
+          <content src="Text/Section0007.html#sigil_toc_id_89"/>
+        </navPoint>
+        <navPoint id="navPoint-97" playOrder="97">
+          <navLabel>
+            <text>2. A Curia e o Comitium</text>
+          </navLabel>
+          <content src="Text/Section0007.html#sigil_toc_id_90"/>
+        </navPoint>
+        <navPoint id="navPoint-98" playOrder="98">
+          <navLabel>
+            <text>3. A Regia</text>
+          </navLabel>
+          <content src="Text/Section0007.html#sigil_toc_id_91"/>
+        </navPoint>
+        <navPoint id="navPoint-99" playOrder="99">
+          <navLabel>
+            <text>4. O Senatus</text>
+          </navLabel>
+          <content src="Text/Section0007.html#sigil_toc_id_92"/>
+        </navPoint>
+        <navPoint id="navPoint-100" playOrder="100">
+          <navLabel>
+            <text>5. O Concilium Legionis Mariae</text>
+          </navLabel>
+          <content src="Text/Section0007.html#sigil_toc_id_93"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-101" playOrder="101">
+        <navLabel>
+          <text>29 LEALDADE LEGIONÁRIA</text>
+        </navLabel>
+        <content src="Text/Section0007.html#sigil_toc_id_94"/>
+      </navPoint>
+      <navPoint id="navPoint-102" playOrder="102">
+        <navLabel>
+          <text>30 SOLENIDADES LEGIONÁRIAS</text>
+        </navLabel>
+        <content src="Text/Section0007.html#sigil_toc_id_95"/>
+        <navPoint id="navPoint-103" playOrder="103">
+          <navLabel>
+            <text>1. A Acies</text>
+          </navLabel>
+          <content src="Text/Section0007.html#sigil_toc_id_96"/>
+        </navPoint>
+        <navPoint id="navPoint-104" playOrder="104">
+          <navLabel>
+            <text>2. A Reunião Geral Anual</text>
+          </navLabel>
+          <content src="Text/Section0007.html#sigil_toc_id_97"/>
+        </navPoint>
+        <navPoint id="navPoint-105" playOrder="105">
+          <navLabel>
+            <text>3. Passeio anual</text>
+          </navLabel>
+          <content src="Text/Section0007.html#sigil_toc_id_98"/>
+        </navPoint>
+        <navPoint id="navPoint-106" playOrder="106">
+          <navLabel>
+            <text>4. O Sarau do Praesidium</text>
+          </navLabel>
+          <content src="Text/Section0007.html#sigil_toc_id_99"/>
+        </navPoint>
+        <navPoint id="navPoint-107" playOrder="107">
+          <navLabel>
+            <text>5. O Congresso</text>
+          </navLabel>
+          <content src="Text/Section0007.html#sigil_toc_id_100"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-108" playOrder="108">
+        <navLabel>
+          <text>31 EXPANSÃO E RECRUTAMENTO</text>
+        </navLabel>
+        <content src="Text/Section0008.html"/>
+      </navPoint>
+      <navPoint id="navPoint-109" playOrder="109">
+        <navLabel>
+          <text>32 ANTECIPANDO OBJEÇÕES PROVÁVEIS</text>
+        </navLabel>
+        <content src="Text/Section0008.html#sigil_toc_id_101"/>
+        <navPoint id="navPoint-110" playOrder="110">
+          <navLabel>
+            <text>1. “Aqui não há necessidade da Legião”.</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_102"/>
+        </navPoint>
+        <navPoint id="navPoint-111" playOrder="111">
+          <navLabel>
+            <text>2. “Não temos pessoas capazes”.</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_103"/>
+        </navPoint>
+        <navPoint id="navPoint-112" playOrder="112">
+          <navLabel>
+            <text>3. “As pessoas se ofenderiam com a visita da Legião”.</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_104"/>
+        </navPoint>
+        <navPoint id="navPoint-113" playOrder="113">
+          <navLabel>
+            <text>4. “Os jovens trabalham a sério o dia todo: precisam de tempo livre para descansar”.</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_105"/>
+        </navPoint>
+        <navPoint id="navPoint-114" playOrder="114">
+          <navLabel>
+            <text>5. “A Legião não passa de uma organização como tantas outras, com o mesmo ideal e o mesmo programa”.</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_106"/>
+        </navPoint>
+        <navPoint id="navPoint-115" playOrder="115">
+          <navLabel>
+            <text>6. “O que a Legião pretende fazer, outras organizações o fazem; não virá criar conflitos?”</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_107"/>
+        </navPoint>
+        <navPoint id="navPoint-116" playOrder="116">
+          <navLabel>
+            <text>7. “Há já organizações demais. Não seria melhor injetar vida nova às existentes ou integrar nas suas funções os trabalhos propostos pela Legião?”</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_108"/>
+        </navPoint>
+        <navPoint id="navPoint-117" playOrder="117">
+          <navLabel>
+            <text>8. “A localidade é pequena; não há espaço para a Legião”.</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_109"/>
+        </navPoint>
+        <navPoint id="navPoint-118" playOrder="118">
+          <navLabel>
+            <text>9. “Certos trabalhos da Legião constituem atividades espirituais que, pela sua natureza, pertencem ao sacerdote, e só devem ser confiadas aos leigos quando ele não as puder realizar. Ora, eu posso visitar o meu rebanho várias vezes ao ano com resultados satisfatórios”.</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_110"/>
+        </navPoint>
+        <navPoint id="navPoint-119" playOrder="119">
+          <navLabel>
+            <text>10. “Temo indiscrições, sempre possíveis, por parte dos membros da Legião”.</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_111"/>
+        </navPoint>
+        <navPoint id="navPoint-120" playOrder="120">
+          <navLabel>
+            <text>11. “Em todos os começos há dificuldades”.</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_112"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-121" playOrder="121">
+        <navLabel>
+          <text>33 PRINCIPAIS DEVERES DOS LEGIONÁRIOS</text>
+        </navLabel>
+        <content src="Text/Section0008.html#sigil_toc_id_113"/>
+        <navPoint id="navPoint-122" playOrder="122">
+          <navLabel>
+            <text>1. Participação regular e pontual na reunião semanal do Praesidium</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_114"/>
+        </navPoint>
+        <navPoint id="navPoint-123" playOrder="123">
+          <navLabel>
+            <text>2. Cumprimento da obrigação do trabalho semanal.</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_115"/>
+        </navPoint>
+        <navPoint id="navPoint-124" playOrder="124">
+          <navLabel>
+            <text>3. Relatar verbalmente na reunião o trabalho da semana</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_116"/>
+        </navPoint>
+        <navPoint id="navPoint-125" playOrder="125">
+          <navLabel>
+            <text>4. Segredo inviolável</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_117"/>
+        </navPoint>
+        <navPoint id="navPoint-126" playOrder="126">
+          <navLabel>
+            <text>5. Caderno de anotações</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_118"/>
+        </navPoint>
+        <navPoint id="navPoint-127" playOrder="127">
+          <navLabel>
+            <text>6. Reza Diária da Catena Legionis</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_119"/>
+        </navPoint>
+        <navPoint id="navPoint-128" playOrder="128">
+          <navLabel>
+            <text>7. As relações entre os membros</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_120"/>
+        </navPoint>
+        <navPoint id="navPoint-129" playOrder="129">
+          <navLabel>
+            <text>8. Relações entre os companheiros de visita</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_121"/>
+        </navPoint>
+        <navPoint id="navPoint-130" playOrder="130">
+          <navLabel>
+            <text>9. Expansão da Legião</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_122"/>
+        </navPoint>
+        <navPoint id="navPoint-131" playOrder="131">
+          <navLabel>
+            <text>10. Estudo do Manual</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_123"/>
+        </navPoint>
+        <navPoint id="navPoint-132" playOrder="132">
+          <navLabel>
+            <text>11. Estar sempre de serviço</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_124"/>
+        </navPoint>
+        <navPoint id="navPoint-133" playOrder="133">
+          <navLabel>
+            <text>12. O legionário deve unir a oração ao trabalho</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_125"/>
+        </navPoint>
+        <navPoint id="navPoint-134" playOrder="134">
+          <navLabel>
+            <text>13. A vida interior dos legionários</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_126"/>
+        </navPoint>
+        <navPoint id="navPoint-135" playOrder="135">
+          <navLabel>
+            <text>a) A oração</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_127"/>
+        </navPoint>
+        <navPoint id="navPoint-136" playOrder="136">
+          <navLabel>
+            <text>b) Espírito de sacrifício</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_128"/>
+        </navPoint>
+        <navPoint id="navPoint-137" playOrder="137">
+          <navLabel>
+            <text>c) Sacramentos</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_129"/>
+        </navPoint>
+        <navPoint id="navPoint-138" playOrder="138">
+          <navLabel>
+            <text>14. O legionário e a vocação cristã</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_130"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-139" playOrder="139">
+        <navLabel>
+          <text>34 DEVERES DOS OFICIAIS DO PRAESIDIUM</text>
+        </navLabel>
+        <content src="Text/Section0008.html#sigil_toc_id_131"/>
+        <navPoint id="navPoint-140" playOrder="140">
+          <navLabel>
+            <text>1. Diretor Espiritual</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_132"/>
+        </navPoint>
+        <navPoint id="navPoint-141" playOrder="141">
+          <navLabel>
+            <text>2. Presidente</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_133"/>
+        </navPoint>
+        <navPoint id="navPoint-142" playOrder="142">
+          <navLabel>
+            <text>3. Vice-Presidente</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_134"/>
+        </navPoint>
+        <navPoint id="navPoint-143" playOrder="143">
+          <navLabel>
+            <text>4. Secretário</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_135"/>
+        </navPoint>
+        <navPoint id="navPoint-144" playOrder="144">
+          <navLabel>
+            <text>5. Tesoureiro</text>
+          </navLabel>
+          <content src="Text/Section0008.html#sigil_toc_id_136"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-145" playOrder="145">
+        <navLabel>
+          <text>35 RECEITAS E DESPESAS</text>
+        </navLabel>
+        <content src="Text/Section0008.html#sigil_toc_id_137"/>
+      </navPoint>
+      <navPoint id="navPoint-146" playOrder="146">
+        <navLabel>
+          <text>36 PRAESIDIA QUE EXIGEM TRATAMENTO ESPECIAL</text>
+        </navLabel>
+        <content src="Text/Section0009.html"/>
+        <navPoint id="navPoint-147" playOrder="147">
+          <navLabel>
+            <text>1. Praesidia Juvenis</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_138"/>
+        </navPoint>
+        <navPoint id="navPoint-148" playOrder="148">
+          <navLabel>
+            <text>2. Os Praesidia nos Seminários</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_139"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-149" playOrder="149">
+        <navLabel>
+          <text>37 SUGESTÕES DE TRABALHOS</text>
+        </navLabel>
+        <content src="Text/Section0009.html#sigil_toc_id_140"/>
+        <navPoint id="navPoint-150" playOrder="150">
+          <navLabel>
+            <text>1. APOSTOLADO NA PARÓQUIA</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_141"/>
+        </navPoint>
+        <navPoint id="navPoint-151" playOrder="151">
+          <navLabel>
+            <text>2. VISITAS DOMICILIARES</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_142"/>
+        </navPoint>
+        <navPoint id="navPoint-152" playOrder="152">
+          <navLabel>
+            <text>3. ENTRONIZAÇÃO DO SAGRADO CORAÇÃO DE JESUS</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_143"/>
+        </navPoint>
+        <navPoint id="navPoint-153" playOrder="153">
+          <navLabel>
+            <text>4. RECENSEAMENTO PAROQUIAL</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_144"/>
+        </navPoint>
+        <navPoint id="navPoint-154" playOrder="154">
+          <navLabel>
+            <text>5. VISITAS AOS HOSPITAIS, INCLUSIVE OS HOSPITAIS DE DOENÇAS MENTAIS</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_145"/>
+        </navPoint>
+        <navPoint id="navPoint-155" playOrder="155">
+          <navLabel>
+            <text>6. OBRAS A FAVOR DOS MAIS MISERÁVEIS E ABANDONADOS ELEMENTOS DA POPULAÇÃO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_146"/>
+        </navPoint>
+        <navPoint id="navPoint-156" playOrder="156">
+          <navLabel>
+            <text>7. OBRAS A FAVOR DA JUVENTUDE</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_147"/>
+        </navPoint>
+        <navPoint id="navPoint-157" playOrder="157">
+          <navLabel>
+            <text>8. BIBLIOTECA AMBULANTE</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_148"/>
+        </navPoint>
+        <navPoint id="navPoint-158" playOrder="158">
+          <navLabel>
+            <text>9. CONTATO COM A MULTIDÃO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_149"/>
+        </navPoint>
+        <navPoint id="navPoint-159" playOrder="159">
+          <navLabel>
+            <text>10. APOSTOLADO A FAVOR DAS EMPREGADAS DOMÉSTICAS CATÓLICAS</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_150"/>
+        </navPoint>
+        <navPoint id="navPoint-160" playOrder="160">
+          <navLabel>
+            <text>11. TRABALHO A FAVOR DOS MILITARES E NÔMADES</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_151"/>
+        </navPoint>
+        <navPoint id="navPoint-161" playOrder="161">
+          <navLabel>
+            <text>12. A DIFUSÃO DA IMPRENSA CATÓLICA</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_152"/>
+        </navPoint>
+        <navPoint id="navPoint-162" playOrder="162">
+          <navLabel>
+            <text>13. PROMOÇÃODA MISSA DIÁRIA E DA DEVOÇÃO AO SANTÍSSIMO SACRAMENTO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_153"/>
+        </navPoint>
+        <navPoint id="navPoint-163" playOrder="163">
+          <navLabel>
+            <text>14. RECRUTAMENTO DE AUXILIARES E CUIDADO A TER COM ELES</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_154"/>
+        </navPoint>
+        <navPoint id="navPoint-164" playOrder="164">
+          <navLabel>
+            <text>15. TRABALHO A FAVOR DAS MISSÕES</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_155"/>
+        </navPoint>
+        <navPoint id="navPoint-165" playOrder="165">
+          <navLabel>
+            <text>16. PROMOÇÃO DE RETIROS</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_156"/>
+        </navPoint>
+        <navPoint id="navPoint-166" playOrder="166">
+          <navLabel>
+            <text>17. ASSOCIAÇÃO DE PIONEIROS DA TEMPERANÇA TOTAL, EM HONRA AO CORAÇÃO DE JESUS</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_157"/>
+        </navPoint>
+        <navPoint id="navPoint-167" playOrder="167">
+          <navLabel>
+            <text>18. CADA LOCALIDADE TEM AS SUAS NECESSIDADES PRÓPRIAS</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_158"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-168" playOrder="168">
+        <navLabel>
+          <text>38 OS PATRÍCIOS</text>
+        </navLabel>
+        <content src="Text/Section0009.html#sigil_toc_id_159"/>
+        <navPoint id="navPoint-169" playOrder="169">
+          <navLabel>
+            <text>ALGUNS PRINCÍPIOS PATRÍCIOS</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_160"/>
+        </navPoint>
+        <navPoint id="navPoint-170" playOrder="170">
+          <navLabel>
+            <text>ORAÇÃO DOS PATRÍCIOS</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_161"/>
+        </navPoint>
+        <navPoint id="navPoint-171" playOrder="171">
+          <navLabel>
+            <text>ORDEM DA REUNIÃO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_162"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-172" playOrder="172">
+        <navLabel>
+          <text>39 PRINCIPAIS DIRETRIZES DO APOSTOLADO LEGIONÁRIO</text>
+        </navLabel>
+        <content src="Text/Section0009.html#sigil_toc_id_163"/>
+        <navPoint id="navPoint-173" playOrder="173">
+          <navLabel>
+            <text>1. O ACESSO À PESSOA HUMANA SÓ É POSSÍVEL COM MARIA</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_164"/>
+        </navPoint>
+        <navPoint id="navPoint-174" playOrder="174">
+          <navLabel>
+            <text>2. A UM SER HUMANO DE VALOR INFINITO TEMOS QUE DEDICAR INFINITA GENEROSIDADE, PACIÊNCIA E DOÇURA</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_165"/>
+        </navPoint>
+        <navPoint id="navPoint-175" playOrder="175">
+          <navLabel>
+            <text>3. CORAGEM LEGIONÁRIA</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_166"/>
+        </navPoint>
+        <navPoint id="navPoint-176" playOrder="176">
+          <navLabel>
+            <text>4. AÇÃO SIMBÓLICA</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_167"/>
+        </navPoint>
+        <navPoint id="navPoint-177" playOrder="177">
+          <navLabel>
+            <text>5. TODO LEGIONÁRIO DEVE TRABALHAR ATIVAMENTE</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_168"/>
+        </navPoint>
+        <navPoint id="navPoint-178" playOrder="178">
+          <navLabel>
+            <text>6. O PRAESIDIUM CONTROLA O TRABALHO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_169"/>
+        </navPoint>
+        <navPoint id="navPoint-179" playOrder="179">
+          <navLabel>
+            <text>7. A VISITA DOIS A DOIS PROTEGE A DISCIPLINA LEGIONÁRIA</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_170"/>
+        </navPoint>
+        <navPoint id="navPoint-180" playOrder="180">
+          <navLabel>
+            <text>8. É PRECISO DEFENDER O CARÁTER ÍNTIMO DO TRABALHO LEGIONÁRIO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_171"/>
+        </navPoint>
+        <navPoint id="navPoint-181" playOrder="181">
+          <navLabel>
+            <text>9. É PARA DESEJAR A VISITA DE CASA EM CASA</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_172"/>
+        </navPoint>
+        <navPoint id="navPoint-182" playOrder="182">
+          <navLabel>
+            <text>10. É PROIBIDA A DISTRIBUIÇÃO DE SOCORROS MATERIAIS</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_173"/>
+        </navPoint>
+        <navPoint id="navPoint-183" playOrder="183">
+          <navLabel>
+            <text>11. OS LEGIONÁRIOS NÃO PEDEM ESMOLAS</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_174"/>
+        </navPoint>
+        <navPoint id="navPoint-184" playOrder="184">
+          <navLabel>
+            <text>12. NÃO HÁ POLÍTICA DENTRO DA LEGIÃO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_175"/>
+        </navPoint>
+        <navPoint id="navPoint-185" playOrder="185">
+          <navLabel>
+            <text>13. PROCUREMOS FALAR A CADA PESSOA</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_176"/>
+        </navPoint>
+        <navPoint id="navPoint-186" playOrder="186">
+          <navLabel>
+            <text>14. NINGUÉM É TÃO MAU QUE NÃO POSSA REGENERAR-SE, NEM TÃO BOM QUE NÃO POSSA TORNAR-SE MELHOR</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_177"/>
+        </navPoint>
+        <navPoint id="navPoint-187" playOrder="187">
+          <navLabel>
+            <text>15. O APOSTOLADO INDEFINIDO É DE POUCA VALIA</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_178"/>
+        </navPoint>
+        <navPoint id="navPoint-188" playOrder="188">
+          <navLabel>
+            <text>16. O SEGREDO DA INFLUÊNCIA É O AMOR</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_179"/>
+        </navPoint>
+        <navPoint id="navPoint-189" playOrder="189">
+          <navLabel>
+            <text>17. EM CADA UMDAQUELES POR QUEM TRABALHA, O LEGIONÁRIO VÊ E SERVE A JESUS CRISTO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_180"/>
+        </navPoint>
+        <navPoint id="navPoint-190" playOrder="190">
+          <navLabel>
+            <text>18. PELO LEGIONÁRIO, MARIA AMA E CUIDA DO SEU DIVINO FILHO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_181"/>
+        </navPoint>
+        <navPoint id="navPoint-191" playOrder="191">
+          <navLabel>
+            <text>19. TODAS AS PORTAS SE ABREM AO LEGIONÁRIO HUMILDE E RESPEITOSO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_182"/>
+        </navPoint>
+        <navPoint id="navPoint-192" playOrder="192">
+          <navLabel>
+            <text>20. COMO PROCEDER NA VISITA ÀS INSTITUIÇÕES</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_183"/>
+        </navPoint>
+        <navPoint id="navPoint-193" playOrder="193">
+          <navLabel>
+            <text>21. O LEGIONÁRIO NÃO DEVE AGIR COMO JUIZ</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_184"/>
+        </navPoint>
+        <navPoint id="navPoint-194" playOrder="194">
+          <navLabel>
+            <text>22. ATITUDE EM FACE DAS CRÍTICAS AGRESSIVAS</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_185"/>
+        </navPoint>
+        <navPoint id="navPoint-195" playOrder="195">
+          <navLabel>
+            <text>23. NUNCA DESANIMAR</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_186"/>
+        </navPoint>
+        <navPoint id="navPoint-196" playOrder="196">
+          <navLabel>
+            <text>24. A CRUZ, SINAL DE ESPERANÇA</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_187"/>
+        </navPoint>
+        <navPoint id="navPoint-197" playOrder="197">
+          <navLabel>
+            <text>25. O TRIUNFO É UMA ALEGRIA; O FRACASSO, O ADIAMENTO DE UM TRIUNFO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_188"/>
+        </navPoint>
+        <navPoint id="navPoint-198" playOrder="198">
+          <navLabel>
+            <text>26. ATITUDE A TOMAR PERANTE OS DEFEITOS DOS PRAESIDIA E DOS LEGIONÁRIOS</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_189"/>
+        </navPoint>
+        <navPoint id="navPoint-199" playOrder="199">
+          <navLabel>
+            <text>27. DESINTERESSE TOTAL</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_190"/>
+        </navPoint>
+        <navPoint id="navPoint-200" playOrder="200">
+          <navLabel>
+            <text>28. NÃO SE OFERECE PRESENTE AOS MEMBROS</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_191"/>
+        </navPoint>
+        <navPoint id="navPoint-201" playOrder="201">
+          <navLabel>
+            <text>29. NÃO HÁ DISTINÇÃO DE CLASSES NA LEGIÃO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_192"/>
+        </navPoint>
+        <navPoint id="navPoint-202" playOrder="202">
+          <navLabel>
+            <text>30. BUSCAR A UNIÃO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_193"/>
+        </navPoint>
+        <navPoint id="navPoint-203" playOrder="203">
+          <navLabel>
+            <text>31. MAIS CEDO OU MAIS TARDE, OS LEGIONÁRIOS DEVEM ENFRENTAR OS TRABALHOS MAIS DIFÍCEIS</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_194"/>
+        </navPoint>
+        <navPoint id="navPoint-204" playOrder="204">
+          <navLabel>
+            <text>32. ATITUDE DIANTE DO PERIGO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_195"/>
+        </navPoint>
+        <navPoint id="navPoint-205" playOrder="205">
+          <navLabel>
+            <text>33. NAS BATALHAS DA IGREJA, A LEGIÃO DEVE ESTAR SEMPRE NA VANGUARDA</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_196"/>
+        </navPoint>
+        <navPoint id="navPoint-206" playOrder="206">
+          <navLabel>
+            <text>34. O LEGIONÁRIO DEVE PROPAGAR TUDO O QUE É CATÓLICO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_197"/>
+        </navPoint>
+        <navPoint id="navPoint-207" playOrder="207">
+          <navLabel>
+            <text>35. “VIRGO PRAEDICANDA”: A VIRGEM DEVER SER DADA A CONHECER A TODOS OS HOMENS, PORQUE É SUA MÃE</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_198"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-208" playOrder="208">
+        <navLabel>
+          <text>40 “IDE POR TODO O MUNDO E PREGAI O EVANGELHO A TODA CRIATURA” (Mc 16, 15)</text>
+        </navLabel>
+        <content src="Text/Section0009.html#sigil_toc_id_199"/>
+        <navPoint id="navPoint-209" playOrder="209">
+          <navLabel>
+            <text>1. O testamento de Jesus Cristo</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_200"/>
+        </navPoint>
+        <navPoint id="navPoint-210" playOrder="210">
+          <navLabel>
+            <text>2. A LEGIÃO DEVE DIRIGIR-SE A CADA PESSOA EM PARTICULAR</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_201"/>
+        </navPoint>
+        <navPoint id="navPoint-211" playOrder="211">
+          <navLabel>
+            <text>3. O ESPECIAL RELACIONAMENTO COM NOSSAS IGREJAS IRMÃS DE TRADIÇÃO ORTODOXA</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_202"/>
+        </navPoint>
+        <navPoint id="navPoint-212" playOrder="212">
+          <navLabel>
+            <text>4. À PROCURA DE CONVERSÕES PARA A IGREJA</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_203"/>
+        </navPoint>
+        <navPoint id="navPoint-213" playOrder="213">
+          <navLabel>
+            <text>5. A SAGRADA EUCARISTIA, INSTRUMENTO DE CONVERSÃO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_204"/>
+        </navPoint>
+        <navPoint id="navPoint-214" playOrder="214">
+          <navLabel>
+            <text>6. AS POPULAÇÕES SEM RELIGIÃO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_205"/>
+        </navPoint>
+        <navPoint id="navPoint-215" playOrder="215">
+          <navLabel>
+            <text>7. A LEGIÃO, AUXILIAR DO MISSIONÁRIO</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_206"/>
+        </navPoint>
+        <navPoint id="navPoint-216" playOrder="216">
+          <navLabel>
+            <text>8. PEREGRINAÇÃO POR CRISTO – P.P.C.</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_207"/>
+        </navPoint>
+        <navPoint id="navPoint-217" playOrder="217">
+          <navLabel>
+            <text>9. MISSIONÁRIOS DE MARIA</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_208"/>
+        </navPoint>
+        <navPoint id="navPoint-218" playOrder="218">
+          <navLabel>
+            <text>10. JORNADA APOSTÓLICA</text>
+          </navLabel>
+          <content src="Text/Section0009.html#sigil_toc_id_209"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-219" playOrder="219">
+        <navLabel>
+          <text>41 “A MAIOR DAS TRÊS É A CARIDADE” (1Cor 13, 13)</text>
+        </navLabel>
+        <content src="Text/Section0010.html"/>
+      </navPoint>
+      <navPoint id="navPoint-220" playOrder="220">
+        <navLabel>
+          <text>APÊNDICE 1 CARTAS E MENSAGENS PAPAIS</text>
+        </navLabel>
+        <content src="Text/Section0010.html#sigil_toc_id_210"/>
+      </navPoint>
+      <navPoint id="navPoint-221" playOrder="221">
+        <navLabel>
+          <text>APÊNDICE 2 ALGUNS EXTRATOS DA CONSTITUIÇÃO DOGMÁTICA SOBRE A IGREJA – LUMEN GENTIUM DO CONCÍLIO VATICANO II</text>
+        </navLabel>
+        <content src="Text/Section0010.html#sigil_toc_id_211"/>
+      </navPoint>
+      <navPoint id="navPoint-222" playOrder="222">
+        <navLabel>
+          <text>APÊNDICE 3 TRECHOS DO DIREITO CANÔNICO SOBRE AS OBRIGAÇÕES E DIREITOS DOS FIÉIS LEIGOS NA IGREJA</text>
+        </navLabel>
+        <content src="Text/Section0010.html#sigil_toc_id_212"/>
+      </navPoint>
+      <navPoint id="navPoint-223" playOrder="223">
+        <navLabel>
+          <text>APÊNDICE 4 A LEGIÃO ROMANA</text>
+        </navLabel>
+        <content src="Text/Section0010.html#sigil_toc_id_213"/>
+      </navPoint>
+      <navPoint id="navPoint-224" playOrder="224">
+        <navLabel>
+          <text>APÊNDICE 5 A ARQUICONFRARIA DE MARIA, RAINHA DOS CORAÇÕES</text>
+        </navLabel>
+        <content src="Text/Section0010.html#sigil_toc_id_214"/>
+      </navPoint>
+      <navPoint id="navPoint-225" playOrder="225">
+        <navLabel>
+          <text>APÊNDICE 6 A MEDALHA DA IMACULADA CONCEIÇÃO CHAMADA “MEDALHA MILAGROSA”</text>
+        </navLabel>
+        <content src="Text/Section0010.html#sigil_toc_id_215"/>
+      </navPoint>
+      <navPoint id="navPoint-226" playOrder="226">
+        <navLabel>
+          <text>APÊNDICE 7 A CONFRARIA DO SANTÍSSIMO ROSÁRIO</text>
+        </navLabel>
+        <content src="Text/Section0010.html#sigil_toc_id_216"/>
+      </navPoint>
+      <navPoint id="navPoint-227" playOrder="227">
+        <navLabel>
+          <text>APÊNDICE 8 O ENSINO DA DOUTRINA CRISTÃ</text>
+        </navLabel>
+        <content src="Text/Section0010.html#sigil_toc_id_217"/>
+      </navPoint>
+      <navPoint id="navPoint-228" playOrder="228">
+        <navLabel>
+          <text>APÊNDICE 9 ASSOCIAÇÃO DE PIONEIROS DA TEMPERANÇA TOTAL EM HONRA DO CORAÇÃO DE JESUS</text>
+        </navLabel>
+        <content src="Text/Section0010.html#sigil_toc_id_218"/>
+      </navPoint>
+      <navPoint id="navPoint-229" playOrder="229">
+        <navLabel>
+          <text>APÊNDICE 10 O ESTUDO DA FÉ</text>
+        </navLabel>
+        <content src="Text/Section0010.html#sigil_toc_id_219"/>
+      </navPoint>
+      <navPoint id="navPoint-230" playOrder="230">
+        <navLabel>
+          <text>APÊNDICE 11 Síntese Marial</text>
+        </navLabel>
+        <content src="Text/Section0010.html#sigil_toc_id_220"/>
+        <navPoint id="navPoint-231" playOrder="231">
+          <navLabel>
+            <text>CONSELHOS DO BRASIL</text>
+          </navLabel>
+          <content src="Text/Section0011.html#sigil_toc_id_221"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>
