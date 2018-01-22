@@ -8,6 +8,7 @@ import android.os.Build
 import android.os.Bundle
 import android.support.annotation.RequiresApi
 import android.support.v13.app.FragmentPagerAdapter
+import android.support.v13.app.FragmentStatePagerAdapter
 import android.support.v4.view.ViewPager
 import android.view.LayoutInflater
 import android.view.View
@@ -23,6 +24,11 @@ class RosaryQuarterFragment : Fragment() {
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_rosary_quarter, container, false)
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        retainInstance = true
     }
 
     @RequiresApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
@@ -50,7 +56,7 @@ class RosaryQuarterFragment : Fragment() {
     /*
     * TODO: try to test this class
     * */
-    private class PageAdapter(fm: FragmentManager?, c : Context) : FragmentPagerAdapter(fm) {
+    private class PageAdapter(fm: FragmentManager?, c : Context) : FragmentStatePagerAdapter(fm) {
 
         private val fragments = listOf(InitialPrayersFragment(), FinalPrayersFragment())
         private val titles = listOf(c.getString(R.string.ipr_title), c.getString(R.string.fpr_title))

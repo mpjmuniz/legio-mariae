@@ -34,7 +34,7 @@ function revealText(){
             var xhr = new XMLHttpRequest();
             xhr.open("GET", `${nextShown}.html`);
             xhr.onreadystatechange=function(){
-                $("html").append(xhr.responseText); // TODO: make this work without jQuery
+                $("html").append(xhr.responseText);
                 element = document.querySelector(cuesMap[nextShown]);
                 if(element != null){
                     lastShown = element.getBoundingClientRect().top;
@@ -56,4 +56,3 @@ function setupTimer(){
 
 // sets the timer for the scrolling function, used to reduce the times where the function is called
 window.addEventListener('scroll', setupTimer);
-
